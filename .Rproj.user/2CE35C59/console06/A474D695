@@ -1,0 +1,13 @@
+]0;~/Documents/proj/maxblog[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m maxblog
+$ [0m[K$ [0mopen ,
+The file /Users/maxcarey/Documents/proj/maxblog/, does not exist.
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m[0;34m maxblog
+$ [0mopen .
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m[0;34m maxblog
+$ [0m[K$ [0mgit log
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m[0;34m maxblog
+$ [0mgit init
+Initialized empty Git repository in /Users/maxcarey/Documents/proj/maxblog/.git/
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master #)[0;34m maxblog
+$ [0mgit ad [Kd .

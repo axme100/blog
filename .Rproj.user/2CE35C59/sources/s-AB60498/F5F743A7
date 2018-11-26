@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543200996570.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "693337037",
+    "id" : "F5F743A7",
+    "lastKnownWriteTime" : 1543202758,
+    "last_content_update" : 1543202758373,
+    "path" : "~/Documents/proj/maxblog/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "17,46",
+        "scrollLine" : "10"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
