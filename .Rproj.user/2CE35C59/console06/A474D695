@@ -11,3 +11,510 @@ $ [0mgit init
 Initialized empty Git repository in /Users/maxcarey/Documents/proj/maxblog/.git/
 ]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master #)[0;34m maxblog
 $ [0mgit ad [Kd .
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m maxblog
+$ [0mgit commit -m "Initial commit [K"
+[master (root-commit) f3fccc8] Initial commit
+ 123 files changed, 15500 insertions(+)
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/2CE35C59/console06/A474D695
+ create mode 100644 .Rproj.user/2CE35C59/console06/INDEX001
+ create mode 100644 .Rproj.user/2CE35C59/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/2CE35C59/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/2CE35C59/rmd-outputs
+ create mode 100644 .Rproj.user/2CE35C59/saved_source_markers
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/488504A6
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/AAE16255
+ create mode 100644 .Rproj.user/2CE35C59/sources/prop/INDEX
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-AB60498/9AE35248
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-AB60498/9AE35248-contents
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-AB60498/F5F743A7
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-AB60498/F5F743A7-contents
+ create mode 100644 .Rproj.user/2CE35C59/sources/s-AB60498/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 config.toml
+ create mode 100644 content/about.md
+ create mode 100644 content/contact.md
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.html
+ create mode 100644 content/post/creating-a-new-theme.md
+ create mode 100644 content/post/goisforlovers.md
+ create mode 100644 content/post/hugoisforlovers.md
+ create mode 100644 content/post/migrate-from-jekyll.md
+ create mode 100644 index.Rmd
+ create mode 100644 maxblog.Rproj
+ create mode 100644 public/.gitkeep
+ create mode 100644 public/about/index.html
+ create mode 100644 public/contact/index.html
+ create mode 100644 public/css/blackburn.css
+ create mode 100644 public/css/side-menu-old-ie.css
+ create mode 100644 public/css/side-menu.css
+ create mode 100644 public/img/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/js/menus.js
+ create mode 100644 public/js/ui.js
+ create mode 100644 public/page/1/index.html
+ create mode 100644 public/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/post/2015-07-23-r-rmarkdown/index.html
+ create mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/post/creating-a-new-theme/index.html
+ create mode 100644 public/post/goisforlovers/index.html
+ create mode 100644 public/post/hugoisforlovers/index.html
+ create mode 100644 public/post/index.html
+ create mode 100644 public/post/index.xml
+ create mode 100644 public/post/migrate-from-jekyll/index.html
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/tags/development/index.html
+ create mode 100644 public/tags/development/index.xml
+ create mode 100644 public/tags/go/index.html
+ create mode 100644 public/tags/go/index.xml
+ create mode 100644 public/tags/golang/index.html
+ create mode 100644 public/tags/golang/index.xml
+ create mode 100644 public/tags/hugo/index.html
+ create mode 100644 public/tags/hugo/index.xml
+ create mode 100644 public/tags/index.html
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/plot/index.html
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/r-markdown/index.html
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/regression/index.html
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 public/tags/templates/index.html
+ create mode 100644 public/tags/templates/index.xml
+ create mode 100644 public/tags/themes/index.html
+ create mode 100644 public/tags/themes/index.xml
+ create mode 100644 public/topics/index.html
+ create mode 100644 public/topics/index.xml
+ create mode 100644 static/.gitkeep
+ create mode 100644 static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 themes/blackburn/LICENSE.md
+ create mode 100644 themes/blackburn/README.md
+ create mode 100644 themes/blackburn/archetypes/default.md
+ create mode 100644 themes/blackburn/exampleSite/.gitignore
+ create mode 100644 themes/blackburn/exampleSite/config.toml
+ create mode 100644 themes/blackburn/exampleSite/content/about.md
+ create mode 100644 themes/blackburn/exampleSite/content/contact.md
+ create mode 100644 themes/blackburn/exampleSite/content/post/creating-a-new-theme.md
+ create mode 100644 themes/blackburn/exampleSite/content/post/goisforlovers.md
+ create mode 100644 themes/blackburn/exampleSite/content/post/hugoisforlovers.md
+ create mode 100644 themes/blackburn/exampleSite/content/post/migrate-from-jekyll.md
+ create mode 100644 themes/blackburn/exampleSite/static/.gitkeep
+ create mode 100644 themes/blackburn/images/screenshot.png
+ create mode 100644 themes/blackburn/images/tn.png
+ create mode 100644 themes/blackburn/layouts/404.html
+ create mode 100644 themes/blackburn/layouts/_default/li.html
+ create mode 100644 themes/blackburn/layouts/_default/single.html
+ create mode 100644 themes/blackburn/layouts/_default/summary.html
+ create mode 100644 themes/blackburn/layouts/_default/terms.html
+ create mode 100644 themes/blackburn/layouts/index.html
+ create mode 100644 themes/blackburn/layouts/partials/brand.html
+ create mode 100644 themes/blackburn/layouts/partials/copyright.html
+ create mode 100644 themes/blackburn/layouts/partials/disqus.html
+ create mode 100644 themes/blackburn/layouts/partials/favicon.html
+ create mode 100644 themes/blackburn/layouts/partials/footer.html
+ create mode 100644 themes/blackburn/layouts/partials/google_analytics.html
+ create mode 100644 themes/blackburn/layouts/partials/head.html
+ create mode 100644 themes/blackburn/layouts/partials/header.html
+ create mode 100644 themes/blackburn/layouts/partials/pagination.html
+ create mode 100644 themes/blackburn/layouts/partials/piwik_analytics.html
+ create mode 100644 themes/blackburn/layouts/partials/post_meta.html
+ create mode 100644 themes/blackburn/layouts/partials/prev_next_post.html
+ create mode 100644 themes/blackburn/layouts/partials/sidemenu.html
+ create mode 100644 themes/blackburn/layouts/partials/social.html
+ create mode 100644 themes/blackburn/layouts/post/post.html
+ create mode 100644 themes/blackburn/layouts/post/single.html
+ create mode 100644 themes/blackburn/layouts/shortcodes/fluid_img.html
+ create mode 100644 themes/blackburn/layouts/shortcodes/fluid_imgs.html
+ create mode 100644 themes/blackburn/layouts/shortcodes/pure_table.html
+ create mode 100644 themes/blackburn/layouts/taxonomy/tag.html
+ create mode 100644 themes/blackburn/layouts/taxonomy/topic.html
+ create mode 100644 themes/blackburn/static/css/blackburn.css
+ create mode 100644 themes/blackburn/static/css/side-menu-old-ie.css
+ create mode 100644 themes/blackburn/static/css/side-menu.css
+ create mode 100644 themes/blackburn/static/img/favicon.ico
+ create mode 100644 themes/blackburn/static/js/ui.js
+ create mode 100644 themes/blackburn/theme.toml
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mgit remote add origin https://github.co m/axme100/blog.git
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mgit push -u origin master
+Counting objects: 161, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/137)   Compressing objects:   1% (2/137)   Compressing objects:   2% (3/137)   Compressing objects:   3% (5/137)   Compressing objects:   4% (6/137)   Compressing objects:   5% (7/137)   Compressing objects:   6% (9/137)   Compressing objects:   7% (10/137)   Compressing objects:   8% (11/137)   Compressing objects:   9% (13/137)   Compressing objects:  10% (14/137)   Compressing objects:  11% (16/137)   Compressing objects:  12% (17/137)   Compressing objects:  13% (18/137)   Compressing objects:  14% (20/137)   Compressing objects:  15% (21/137)   Compressing objects:  16% (22/137)   Compressing objects:  17% (24/137)   Compressing objects:  18% (25/137)   Compressing objects:  19% (27/137)   Compressing objects:  20% (28/137)   Compressing objects:  21% (29/137)   Compressing objects:  22% (31/137)   Compressing objects:  23% (32/137)   Compressing objects:  24% (33/137)   Compressing objects:  25% (35/137)   Compressing objects:  26% (36/137)   Compressing objects:  27% (37/137)   Compressing objects:  28% (39/137)   Compressing objects:  29% (40/137)   Compressing objects:  30% (42/137)   Compressing objects:  31% (43/137)   Compressing objects:  32% (44/137)   Compressing objects:  33% (46/137)   Compressing objects:  34% (47/137)   Compressing objects:  35% (48/137)   Compressing objects:  36% (50/137)   Compressing objects:  37% (51/137)   Compressing objects:  38% (53/137)   Compressing objects:  39% (54/137)   Compressing objects:  40% (55/137)   Compressing objects:  41% (57/137)   Compressing objects:  42% (58/137)   Compressing objects:  43% (59/137)   Compressing objects:  44% (61/137)   Compressing objects:  45% (62/137)   Compressing objects:  46% (64/137)   Compressing objects:  47% (65/137)   Compressing objects:  48% (66/137)   Compressing objects:  49% (68/137)   Compressing objects:  50% (69/137)   Compressing objects:  51% (70/137)   Compressing objects:  52% (72/137)   Compressing objects:  53% (73/137)   Compressing objects:  54% (74/137)   Compressing objects:  55% (76/137)   Compressing objects:  56% (77/137)   Compressing objects:  57% (79/137)   Compressing objects:  58% (80/137)   Compressing objects:  59% (81/137)   Compressing objects:  60% (83/137)   Compressing objects:  61% (84/137)   Compressing objects:  62% (85/137)   Compressing objects:  63% (87/137)   Compressing objects:  64% (88/137)   Compressing objects:  65% (90/137)   Compressing objects:  66% (91/137)   Compressing objects:  67% (92/137)   Compressing objects:  68% (94/137)   Compressing objects:  69% (95/137)   Compressing objects:  70% (96/137)   Compressing objects:  71% (98/137)   Compressing objects:  72% (99/137)   Compressing objects:  73% (101/137)   Compressing objects:  74% (102/137)   Compressing objects:  75% (103/137)   Compressing objects:  76% (105/137)   Compressing objects:  77% (106/137)   Compressing objects:  78% (107/137)   Compressing objects:  79% (109/137)   Compressing objects:  80% (110/137)   Compressing objects:  81% (111/137)   Compressing objects:  82% (113/137)   Compressing objects:  83% (114/137)   Compressing objects:  84% (116/137)   Compressing objects:  85% (117/137)   Compressing objects:  86% (118/137)   Compressing objects:  87% (120/137)   Compressing objects:  88% (121/137)   Compressing objects:  89% (122/137)   Compressing objects:  90% (124/137)   Compressing objects:  91% (125/137)   Compressing objects:  92% (127/137)   Compressing objects:  93% (128/137)   Compressing objects:  94% (129/137)   Compressing objects:  95% (131/137)   Compressing objects:  96% (132/137)   Compressing objects:  97% (133/137)   Compressing objects:  98% (135/137)   Compressing objects:  99% (136/137)   Compressing objects: 100% (137/137)   Compressing objects: 100% (137/137), done.
+Writing objects:   0% (1/161)   Writing objects:   1% (2/161)   Writing objects:   2% (4/161)   Writing objects:   3% (5/161)   Writing objects:   4% (7/161)   Writing objects:   5% (9/161)   Writing objects:   6% (10/161)   Writing objects:   7% (12/161)   Writing objects:   8% (13/161)   Writing objects:   9% (15/161)   Writing objects:  10% (17/161)   Writing objects:  11% (18/161)   Writing objects:  12% (20/161)   Writing objects:  13% (21/161)   Writing objects:  14% (23/161)   Writing objects:  15% (25/161)   Writing objects:  16% (26/161)   Writing objects:  17% (28/161)   Writing objects:  18% (29/161)   Writing objects:  19% (31/161)   Writing objects:  20% (33/161)   Writing objects:  21% (35/161)   Writing objects:  22% (36/161)   Writing objects:  23% (38/161)   Writing objects:  24% (39/161)   Writing objects:  25% (41/161)   Writing objects:  26% (42/161)   Writing objects:  27% (44/161)   Writing objects:  28% (46/161)   Writing objects:  29% (48/161)   Writing objects:  30% (49/161)   Writing objects:  31% (50/161)   Writing objects:  32% (52/161)   Writing objects:  33% (54/161)   Writing objects:  34% (55/161)   Writing objects:  35% (57/161)   Writing objects:  36% (58/161)   Writing objects:  37% (60/161)   Writing objects:  38% (62/161)   Writing objects:  39% (63/161)   Writing objects:  40% (65/161)   Writing objects:  41% (67/161)   Writing objects:  42% (68/161)   Writing objects:  43% (70/161)   Writing objects:  44% (71/161)   Writing objects:  45% (73/161)   Writing objects:  46% (75/161)   Writing objects:  47% (76/161)   Writing objects:  48% (78/161)   Writing objects:  49% (79/161)   Writing objects:  50% (81/161)   Writing objects:  51% (83/161)   Writing objects:  52% (84/161)   Writing objects:  53% (86/161)   Writing objects:  54% (87/161)   Writing objects:  55% (89/161)   Writing objects:  56% (91/161)   Writing objects:  57% (92/161)   Writing objects:  58% (94/161)   Writing objects:  59% (95/161)   Writing objects:  60% (97/161)   Writing objects:  61% (99/161)   Writing objects:  62% (100/161)   Writing objects:  63% (102/161)   Writing objects:  64% (104/161)   Writing objects:  65% (105/161)   Writing objects:  66% (107/161)   Writing objects:  67% (108/161)   Writing objects:  68% (110/161)   Writing objects:  69% (112/161)   Writing objects:  70% (113/161)   Writing objects:  71% (115/161)   Writing objects:  72% (116/161)   Writing objects:  73% (118/161)   Writing objects:  74% (120/161)   Writing objects:  75% (121/161)   Writing objects:  76% (123/161)   Writing objects:  77% (124/161)   Writing objects:  78% (126/161)   Writing objects:  79% (128/161)   Writing objects:  80% (129/161)   Writing objects:  81% (131/161)   Writing objects:  82% (133/161)   Writing objects:  83% (134/161)   Writing objects:  84% (136/161)   Writing objects:  85% (137/161)   Writing objects:  86% (139/161)   Writing objects:  87% (141/161)   Writing objects:  88% (142/161)   Writing objects:  89% (144/161)   Writing objects:  90% (145/161)   Writing objects:  91% (147/161)   Writing objects:  92% (149/161)   Writing objects:  93% (150/161)   Writing objects:  94% (152/161)   Writing objects:  95% (153/161)   Writing objects:  96% (155/161)   Writing objects:  97% (157/161)   Writing objects:  98% (158/161)   Writing objects:  99% (160/161)   Writing objects: 100% (161/161)   Writing objects: 100% (161/161), 306.26 KiB | 0 bytes/s, done.
+Total 161 (delta 31), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/31)   [Kremote: Resolving deltas:   3% (1/31)   [Kremote: Resolving deltas:   6% (2/31)   [Kremote: Resolving deltas:   9% (3/31)   [Kremote: Resolving deltas:  22% (7/31)   [Kremote: Resolving deltas:  58% (18/31)   [Kremote: Resolving deltas:  61% (19/31)   [Kremote: Resolving deltas:  70% (22/31)   [Kremote: Resolving deltas:  90% (28/31)   [Kremote: Resolving deltas:  96% (30/31)   [Kremote: Resolving deltas: 100% (31/31)   [Kremote: Resolving deltas: 100% (31/31), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/axme100/blog/pull/new/master[K
+remote: 
+To https://github.com/axme100/blog.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mls
+archetypes	maxblog.Rproj
+config.toml	public
+content		resources
+data		static
+index.Rmd	themes
+layouts
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd content
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls
+about.md	contact.md
+code		post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd code[K$ [0mcd code[K[K[K[K[K[K[Kls
+about.md
+code
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd code
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mtouch index.md
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0msublime .[K[K3 .
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+index.md
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mtou[K[K[Ktou[K[K[Ktouch [K[K[K[K[K[Ktouch ali[K[K[KalinamientoForzado. md[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K alinamientoF[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch [K[K[K[K[K[Ktouch alinamientoFr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktou[K[K[Ktouch AlinamientoFopr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KalinamientoForzado. md
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0m[K$ [0m[K$ [0mpwd
+/Users/maxcarey/Documents/proj/maxblog/content/code
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+alinamientoForzado.md
+index.md
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls
+about.md
+code
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mls
+archetypes
+config.toml
+content
+data
+index.Rmd
+layouts
+maxblog.Rproj
+public
+resources
+static
+themes
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd static
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mls
+post
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd po[K[Kpost
+]0;~/Documents/proj/maxblog/static/post[38;5;203mmaxcarey[38;05;38m (master *)[0;34m post
+$ [0mls
+2015-07-23-r-rmarkdown_files
+]0;~/Documents/proj/maxblog/static/post[38;5;203mmaxcarey[38;05;38m (master *)[0;34m post
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mls
+archetypes
+config.toml
+content
+data
+index.Rmd
+layouts
+maxblog.Rproj
+public
+resources
+static
+themes
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd code
+bash: cd: code: No such file or directory
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd code .
+bash: cd: code: No such file or directory
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mc[Kls
+archetypes
+config.toml
+content
+data
+index.Rmd
+layouts
+maxblog.Rproj
+public
+resources
+static
+themes
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd [K[K[Kcd content
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls
+about.md
+code
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd code
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+alinamientoForzado.md
+index.md
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mmv alinamientoForzado.md  ../../statu[Kic/
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mmv alinamientoForzado.md .../../static/[A[C[Cls[K
+[K[A[C[C[C[Cmv alinamientoForzado.md .../../static/[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ,,
+bash: cd: ,,: No such file or directory
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd ds[K[Kstatic
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mls
+alinamientoForzado.md
+post
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd [K[K[Kmv *md ../[K[K[K[K[K[K[K[K[K[Kmkdir static[K[K[K[K[K[Kcode
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mmv *jd[K[Kmd code
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd code
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+alinamientoForzado.md
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+alinamientoForzado.md
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd content
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls
+about.md
+code
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd code
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+index.md
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd d[Kstatic
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mls
+code	post
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd code
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls[K[Kls
+alinamientoForzado.md
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mmv *md ../../content/code /
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mmv Forx[K[K[K[K*ado.md *files
+mv: rename *ado.md to *files: No such file or directory
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mmv *ado.md *files[K[K[K[K[K[Kmarkdownfiles
+mv: rename *ado.md to markdownfiles: No such file or directory
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mopen .
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0m[K$ [0m[K$ [0mls
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mpwd
+/Users/maxcarey/Documents/proj/maxblog/static/code
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0ms[Kls
+]0;~/Documents/proj/maxblog/static/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mls
+code	post
+]0;~/Documents/proj/maxblog/static[38;5;203mmaxcarey[38;05;38m (master *)[0;34m static
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mls
+archetypes
+config.toml
+content
+data
+index.Rmd
+layouts
+maxblog.Rproj
+public
+resources
+static
+themes
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd contne[K[Kent
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls
+about.md
+code
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd codeExam[K[K[K[KExampleOne[K[K[K[K[K[K[K[K[K[KOne
+bash: cd: codeOne: No such file or directory
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mmkdir codeOne
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls[K[Kls[K[Kls
+about.md
+code
+codeOne
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd code
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mls
+index.md
+markdownfiles
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ,arl[K[K[K[Kmarkdownfiles
+]0;~/Documents/proj/maxblog/content/code/markdownfiles[38;5;203mmaxcarey[38;05;38m (master *)[0;34m markdownfiles
+$ [0mls
+alinamientoForzado.md
+]0;~/Documents/proj/maxblog/content/code/markdownfiles[38;5;203mmaxcarey[38;05;38m (master *)[0;34m markdownfiles
+$ [0mmv *md ../../codeOne [A
+]0;~/Documents/proj/maxblog/content/code/markdownfiles[38;5;203mmaxcarey[38;05;38m (master *)[0;34m markdownfiles
+$ [0mls
+]0;~/Documents/proj/maxblog/content/code/markdownfiles[38;5;203mmaxcarey[38;05;38m (master *)[0;34m markdownfiles
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/content/code[38;5;203mmaxcarey[38;05;38m (master *)[0;34m code
+$ [0mcd ..
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0ml[Kcd[K[Kl[Kls
+archetypes
+config.toml
+content
+data
+index.Rmd
+layouts
+maxblog.Rproj
+public
+resources
+static
+themes
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mcd [K[K[Kcd content
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd code [KOnde
+bash: cd: codeOnde: No such file or directory
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mls
+about.md
+code
+codeOne
+contact.md
+post
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd codeOne
+]0;~/Documents/proj/maxblog/content/codeOne[38;5;203mmaxcarey[38;05;38m (master *)[0;34m codeOne
+$ [0mls
+alinamientoForzado.md
+]0;~/Documents/proj/maxblog/content/codeOne[38;5;203mmaxcarey[38;05;38m (master *)[0;34m codeOne
+$ [0mmv alinamientoForzad o.md index.md
+]0;~/Documents/proj/maxblog/content/codeOne[38;5;203mmaxcarey[38;05;38m (master *)[0;34m codeOne
+$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0mopen .
+]0;~/Documents/proj/maxblog/content/codeOne[38;5;203mmaxcarey[38;05;38m (master *)[0;34m codeOne
+$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m[K$ [0m]0;~/Documents/proj/maxblog/content/codeOne[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m codeOne
+[K$ [0mcd ..
+]0;~/Documents/proj/maxblog/content[38;5;203mmaxcarey[38;05;38m (master *)[0;34m content
+$ [0mcd ..
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mls
+archetypes	data		maxblog.Rproj	static
+config.toml	index.Rmd	public		themes
+content		layouts		resources
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mgit log
+[?1h=[33mcommit f3fccc882671d5a7f12a7baf278dc2737db3c370[m[m
+Author: Max Carey <maxcarey@protonmail.com>[m
+Date:   Sun Nov 25 21:26:35 2018 -0600[m
+[m
+    Initial commit[m
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K[?1l>]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0mnan[K[K[Knan[K[K[Knano .gi[K[K[K[K[K[K[K[Ksublime3 git[K[K[K.gitignore
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0m[K$ [0m[K$ [0mgit rm -r -cache[K[K[K[K[K-cace[K[Kched public/
+rm 'public/.gitkeep'
+rm 'public/about/index.html'
+rm 'public/contact/index.html'
+rm 'public/css/blackburn.css'
+rm 'public/css/side-menu-old-ie.css'
+rm 'public/css/side-menu.css'
+rm 'public/img/favicon.ico'
+rm 'public/index.html'
+rm 'public/index.xml'
+rm 'public/js/menus.js'
+rm 'public/js/ui.js'
+rm 'public/page/1/index.html'
+rm 'public/post/2015-07-23-r-rmarkdown.Rmd'
+rm 'public/post/2015-07-23-r-rmarkdown/index.html'
+rm 'public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png'
+rm 'public/post/creating-a-new-theme/index.html'
+rm 'public/post/goisforlovers/index.html'
+rm 'public/post/hugoisforlovers/index.html'
+rm 'public/post/index.html'
+rm 'public/post/index.xml'
+rm 'public/post/migrate-from-jekyll/index.html'
+rm 'public/sitemap.xml'
+rm 'public/tags/development/index.html'
+rm 'public/tags/development/index.xml'
+rm 'public/tags/go/index.html'
+rm 'public/tags/go/index.xml'
+rm 'public/tags/golang/index.html'
+rm 'public/tags/golang/index.xml'
+rm 'public/tags/hugo/index.html'
+rm 'public/tags/hugo/index.xml'
+rm 'public/tags/index.html'
+rm 'public/tags/index.xml'
+rm 'public/tags/plot/index.html'
+rm 'public/tags/plot/index.xml'
+rm 'public/tags/r-markdown/index.html'
+rm 'public/tags/r-markdown/index.xml'
+rm 'public/tags/regression/index.html'
+rm 'public/tags/regression/index.xml'
+rm 'public/tags/templates/index.html'
+rm 'public/tags/templates/index.xml'
+rm 'public/tags/themes/index.html'
+rm 'public/tags/themes/index.xml'
+rm 'public/topics/index.html'
+rm 'public/topics/index.xml'
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m maxblog
+$ [0mgit add .

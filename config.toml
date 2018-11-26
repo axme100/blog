@@ -1,8 +1,14 @@
+# Demonize Server
+# options(servr.daemon = TRUE)
+# Serve site:
+# blogdown::serve_site()
+# http://127.0.0.1:4321/
+
 baseurl = "/"
 languageCode = "en-us"
 title = "Idiolecto"
 theme = "blackburn"
-author = "Max Caret"
+author = "Max Carey"
 copyright = "&copy; 2018. All rights reserved."
 #canonifyurls = true
 paginate = 10
@@ -33,7 +39,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/"
   [[menu.main]]
     name = "Code Notes"
-    pre = "<i class='fa fa-home fa-fw'></i>"
+    pre = "<i class='fa fa-code fa-fw'></i>"
     weight = 2
     identifier = "code"
     url = "/code/"
@@ -58,9 +64,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter = "*"
-  facebook = "*"
-  instagram = "*"
-  github = "yoshiharuyamashita"
-  stackoverflow = "*"
-  linkedin = "*"
+  twitter = "@axme100"
+  #facebook = "*"
+  #instagram = "*"
+  github = "axme100"
+  stackoverflow = "axme100"
+  linkedin = "max-carey-aaba07166"

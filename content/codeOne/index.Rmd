@@ -1,0 +1,158 @@
+---
+title: Coding Notes, Wrangle Concordances
+author: mc
+date: '2018-11-25'
+slug: test
+categories: []
+tags: []
+description: 'This script reads in a bunch of excel files of concordance lines in Spanish, aggregates them, and applies a custom function to trim the `left context` field, it specifically trims everything to the left of the last full stop. Plus it creates a top 10 ggplot bar graph!'
+topics: []
+type: 'post'
+---
+
+Test
+<!--readmore--> 
+#more
+
+## Load the required packages
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+library(stringr)
+library(readxl)
+library(ggplot2)
+```
+
+## Get a list all of the excel files in the working directory
+```{r}
+file.list <- list.files(path = "datos_originales/", pattern='*.xlsx')
+```
+
+## Use paste to prefix the `datos_originales/` file path to each excel file (paste just preprends the first argument to the second argment
+### https://stackoverflow.com/questions/6984796/how-to-paste-a-string-on-each-element-of-a-vector-of-strings-using-apply-in-r
+```{r}
+file.list.new <- paste("datos_originales/", file.list, sep="")
+```
+
+# Use lapply to apply read_excel() to every file in the working directory
+```{r}
+df.list <- lapply(file.list.new, read_excel)
+```
+
+```{r}
+# Combine this into a data frame
+df <- bind_rows(df.list)
+```
+
+# Data wrangle messy excel data
+
+```{r}
+# Some of the sheets had the cd column in a different order that's why we got cd one and cd two
+colnames(df) <- c("izq","palabra","cd","der","cd2","encode","cd3")
+
+# Rearrange columns
+# Encode looks to be a repition of a cd column so don't select it
+df <- df %>%
+  select(izq, palabra, cd, cd2, cd3, der)
+
+# Get a logical vector where the cd column is null
+my.na <- is.na(df$cd)
+
+# For those cases where cd column is null replace it with the cd2 column
+df$cd[my.na] <- df$cd2[my.na]
+
+# Repeat the same two steps above, now, where the cd column is STILL null replace it with cd3
+my.na <- is.na(df$cd)
+df$cd[my.na] <- df$cd3[my.na]
+
+# Subset
+df <- df %>%
+  select(izq, palabra, cd, der)
+
+# Cordance line to test function below
+```
+
+
+# Create custom recode function to trim concordances
+```{r}
+customRecode <- function(concordanceLine) {
+  # Using the stringr package which is part of the tidy verse find all the
+  # occurences of periods in the string
+  listOfPeriods <- str_locate_all(concordanceLine, "\\.")
+  
+  # Get the length of the list of periods 
+  getIndex <- length(listOfPeriods[[1]])
+  
+  # If there isn't a last period then just retrun the string how it is
+  if (getIndex > 0) {
+    
+    # Use this length to pull the index of the period in the string
+    indexOfLastPeriod <- listOfPeriods[[1]][getIndex]
+    
+    # Extract everything to the right of this string + 2 spaces
+    newString <- str_sub(concordanceLine, start = indexOfLastPeriod + 2)
+    
+  } else {
+    newString <- concordanceLine
+  }
+  
+  return(newString)
+}
+```
+
+
+# Use function to remove everything to the left of the last periord
+```{r}
+df$izqNew <- mapply(customRecode, df$izq)
+```
+
+# Re-arrange columns
+```{r}
+df <- df %>%
+  select(izq, izqNew, palabra, cd, der)
+```
+
+# Remove duplicates, these must be from the duplicated sheets
+```{r}
+# See documetation below, part of tidyverse, it looks like you can specficy 
+# columns or just pass in an entire data frame, I assume when you pass in an entire data frame
+# every single row has to be the same
+# http://www.datasciencemadesimple.com/remove-duplicate-rows-r-using-dplyr-distinct-function/
+# https://www.rdocumentation.org/packages/dplyr/versions/0.7.6/topics/distinct
+df <- distinct(df)
+```
+# Create a visualization of of the different counts
+```{r}
+# Get the top 10
+df %>%
+  count(palabra) %>%
+  arrange(desc(n)) %>%
+  top_n(10, n) %>%
+  # See the reorder() solution
+  # https://stackoverflow.com/questions/25664007/reorder-bars-in-geom-bar-ggplot2/25664367
+  ggplot(aes(x = reorder(palabra, -n), y = n)) +
+  geom_bar(stat="identity") +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 90)) +
+  ggtitle("Top 10")
+```
+
+
+# Create a another dataframe to save the counts
+```{r}
+counts_of_df <- df %>%
+  count(palabra) %>%
+  arrange(desc(n))
+```
+
+# Save as excel
+```{r}
+# A Bit redundant, but it appears this package has to be used
+# to write an excel file, other packages are problematic and rely
+# and java dependencies.
+# See here https://github.com/tidyverse/readxl/issues/231
+library(openxlsx)
+
+# Write the data as an xlsx file to the working directory
+# The Tidyverse doesn't appear to have a writexl equivelant
+openxlsx::write.xlsx(df, file = "datos.xlsx")
+openxlsx::write.xlsx(counts_of_df, file = "conteo.xlsx")
+```

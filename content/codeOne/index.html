@@ -1,0 +1,145 @@
+---
+title: Coding Notes, Wrangle Concordances
+author: mc
+date: '2018-11-25'
+slug: test
+categories: []
+tags: []
+description: 'This script reads in a bunch of excel files of concordance lines in Spanish, aggregates them, and applies a custom function to trim the `left context` field, it specifically trims everything to the left of the last full stop. Plus it creates a top 10 ggplot bar graph!'
+topics: []
+type: 'post'
+---
+
+
+
+<p>Test
+<!--readmore-->
+#more</p>
+<div id="load-the-required-packages" class="section level2">
+<h2>Load the required packages</h2>
+<pre class="r"><code>library(dplyr, warn.conflicts = FALSE)
+library(stringr)
+library(readxl)
+library(ggplot2)</code></pre>
+</div>
+<div id="get-a-list-all-of-the-excel-files-in-the-working-directory" class="section level2">
+<h2>Get a list all of the excel files in the working directory</h2>
+<pre class="r"><code>file.list &lt;- list.files(path = &quot;datos_originales/&quot;, pattern=&#39;*.xlsx&#39;)</code></pre>
+</div>
+<div id="use-paste-to-prefix-the-datos_originales-file-path-to-each-excel-file-paste-just-preprends-the-first-argument-to-the-second-argment" class="section level2">
+<h2>Use paste to prefix the <code>datos_originales/</code> file path to each excel file (paste just preprends the first argument to the second argment</h2>
+<div id="httpsstackoverflow.comquestions6984796how-to-paste-a-string-on-each-element-of-a-vector-of-strings-using-apply-in-r" class="section level3">
+<h3><a href="https://stackoverflow.com/questions/6984796/how-to-paste-a-string-on-each-element-of-a-vector-of-strings-using-apply-in-r" class="uri">https://stackoverflow.com/questions/6984796/how-to-paste-a-string-on-each-element-of-a-vector-of-strings-using-apply-in-r</a></h3>
+<pre class="r"><code>file.list.new &lt;- paste(&quot;datos_originales/&quot;, file.list, sep=&quot;&quot;)</code></pre>
+</div>
+</div>
+<div id="use-lapply-to-apply-read_excel-to-every-file-in-the-working-directory" class="section level1">
+<h1>Use lapply to apply read_excel() to every file in the working directory</h1>
+<pre class="r"><code>df.list &lt;- lapply(file.list.new, read_excel)</code></pre>
+<pre class="r"><code># Combine this into a data frame
+df &lt;- bind_rows(df.list)</code></pre>
+</div>
+<div id="data-wrangle-messy-excel-data" class="section level1">
+<h1>Data wrangle messy excel data</h1>
+<pre class="r"><code># Some of the sheets had the cd column in a different order that&#39;s why we got cd one and cd two
+colnames(df) &lt;- c(&quot;izq&quot;,&quot;palabra&quot;,&quot;cd&quot;,&quot;der&quot;,&quot;cd2&quot;,&quot;encode&quot;,&quot;cd3&quot;)
+
+# Rearrange columns
+# Encode looks to be a repition of a cd column so don&#39;t select it
+df &lt;- df %&gt;%
+  select(izq, palabra, cd, cd2, cd3, der)
+
+# Get a logical vector where the cd column is null
+my.na &lt;- is.na(df$cd)
+
+# For those cases where cd column is null replace it with the cd2 column
+df$cd[my.na] &lt;- df$cd2[my.na]
+
+# Repeat the same two steps above, now, where the cd column is STILL null replace it with cd3
+my.na &lt;- is.na(df$cd)
+df$cd[my.na] &lt;- df$cd3[my.na]
+
+# Subset
+df &lt;- df %&gt;%
+  select(izq, palabra, cd, der)
+
+# Cordance line to test function below</code></pre>
+</div>
+<div id="create-custom-recode-function-to-trim-concordances" class="section level1">
+<h1>Create custom recode function to trim concordances</h1>
+<pre class="r"><code>customRecode &lt;- function(concordanceLine) {
+  # Using the stringr package which is part of the tidy verse find all the
+  # occurences of periods in the string
+  listOfPeriods &lt;- str_locate_all(concordanceLine, &quot;\\.&quot;)
+  
+  # Get the length of the list of periods 
+  getIndex &lt;- length(listOfPeriods[[1]])
+  
+  # If there isn&#39;t a last period then just retrun the string how it is
+  if (getIndex &gt; 0) {
+    
+    # Use this length to pull the index of the period in the string
+    indexOfLastPeriod &lt;- listOfPeriods[[1]][getIndex]
+    
+    # Extract everything to the right of this string + 2 spaces
+    newString &lt;- str_sub(concordanceLine, start = indexOfLastPeriod + 2)
+    
+  } else {
+    newString &lt;- concordanceLine
+  }
+  
+  return(newString)
+}</code></pre>
+</div>
+<div id="use-function-to-remove-everything-to-the-left-of-the-last-periord" class="section level1">
+<h1>Use function to remove everything to the left of the last periord</h1>
+<pre class="r"><code>df$izqNew &lt;- mapply(customRecode, df$izq)</code></pre>
+</div>
+<div id="re-arrange-columns" class="section level1">
+<h1>Re-arrange columns</h1>
+<pre class="r"><code>df &lt;- df %&gt;%
+  select(izq, izqNew, palabra, cd, der)</code></pre>
+</div>
+<div id="remove-duplicates-these-must-be-from-the-duplicated-sheets" class="section level1">
+<h1>Remove duplicates, these must be from the duplicated sheets</h1>
+<pre class="r"><code># See documetation below, part of tidyverse, it looks like you can specficy 
+# columns or just pass in an entire data frame, I assume when you pass in an entire data frame
+# every single row has to be the same
+# http://www.datasciencemadesimple.com/remove-duplicate-rows-r-using-dplyr-distinct-function/
+# https://www.rdocumentation.org/packages/dplyr/versions/0.7.6/topics/distinct
+df &lt;- distinct(df)</code></pre>
+</div>
+<div id="create-a-visualization-of-of-the-different-counts" class="section level1">
+<h1>Create a visualization of of the different counts</h1>
+<pre class="r"><code># Get the top 10
+df %&gt;%
+  count(palabra) %&gt;%
+  arrange(desc(n)) %&gt;%
+  top_n(10, n) %&gt;%
+  # See the reorder() solution
+  # https://stackoverflow.com/questions/25664007/reorder-bars-in-geom-bar-ggplot2/25664367
+  ggplot(aes(x = reorder(palabra, -n), y = n)) +
+  geom_bar(stat=&quot;identity&quot;) +
+  theme(text = element_text(size=20), axis.text.x = element_text(angle = 90)) +
+  ggtitle(&quot;Top 10&quot;)</code></pre>
+<p><img src="/codeOne/index_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+</div>
+<div id="create-a-another-dataframe-to-save-the-counts" class="section level1">
+<h1>Create a another dataframe to save the counts</h1>
+<pre class="r"><code>counts_of_df &lt;- df %&gt;%
+  count(palabra) %&gt;%
+  arrange(desc(n))</code></pre>
+</div>
+<div id="save-as-excel" class="section level1">
+<h1>Save as excel</h1>
+<pre class="r"><code># A Bit redundant, but it appears this package has to be used
+# to write an excel file, other packages are problematic and rely
+# and java dependencies.
+# See here https://github.com/tidyverse/readxl/issues/231
+library(openxlsx)
+
+# Write the data as an xlsx file to the working directory
+# The Tidyverse doesn&#39;t appear to have a writexl equivelant
+openxlsx::write.xlsx(df, file = &quot;datos.xlsx&quot;)
+openxlsx::write.xlsx(counts_of_df, file = &quot;conteo.xlsx&quot;)</code></pre>
+</div>
