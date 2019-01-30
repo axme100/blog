@@ -1,11 +1,25 @@
 ---
-title: test
-author: mc
-date: '2018-11-25'
+title: Totago Mapping Project
+author: Max Carey
+date: '2019-01-30'
 slug: test
 categories: []
-tags: []
+tags: [data science, totago, mapbox]
 description: ''
 topics: []
 ---
+
+In this blog post, I'm going to show off my latest (and first ever) full-stack, data science programming project. I built a single-page, dynamic web application that allows you to visualise usage data of the [Totago](https://www.totago.co/) web application. [Totago](https://www.totago.co/) helps people acsess hiking trails via public transportation. The application I built allows you to click on zip code areas on a map (powered by Map Box GL JS framework) and dynamically visualize the outdoor destinations that were visited by people originating from those zip code areas. You can find the live version of the application here. The code used to build this applicaiton is available on GitHub.
+
+# 1. What is Totago?
+
+# 2. Where I learned the skills to program this site up
+
+# 3. The technology behind the site
+
+# 4. Valuable skills I learned from this project.
+
+
+
+
 

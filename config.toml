@@ -6,7 +6,7 @@
 
 baseurl = "/"
 languageCode = "en-us"
-title = "Idiolecto"
+title = "Max Carey"
 theme = "blackburn"
 author = "Max Carey"
 copyright = "&copy; 2018. All rights reserved."
@@ -21,7 +21,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
   # Shown in the home page
-  subtitle = "A Blog on Linguistics and Coding"
+  subtitle = "A Personal Website and Blog to Showcase my Work"
   brand = "Blackburn"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "Your Disqus shortname"
