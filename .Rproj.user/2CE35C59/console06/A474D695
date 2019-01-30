@@ -631,3 +631,13 @@ To https://github.com/axme100/blog.git
 ]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
 $ [0m[K$ [0m]0;~/Documents/proj/maxblog[?1034h[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
 [K$ [0mgot[K[K[Kgit[K[K[Kgit [K[K[K[Kgit[K[K[Kgit[K[K[Kgit ad[K[K[K[K[K[Kgit add .
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m maxblog
+$ [0mgit commit -m "Incorporate s[Kunam blog pos t frm [K[Kom word [K, up to line [K[K[K[K[K[K[K[K[K[K[Kstart revewi[K[K[Kewing from line 63"
+[master e199685] Incorporate unam blog post from word, start revewing from line 63
+ 16 files changed, 407 insertions(+), 26 deletions(-)
+ rewrite .Rproj.user/2CE35C59/console06/INDEX001 (85%)
+ create mode 100644 content/post/2019-01-30-getting-in-to-a-postgraduate-programs-at-the-unam.md
+ create mode 100644 static/post/2019-01-30-getting-in-to-a-postgraduate-programs-at-the-unam_files/Picture1.png
+ create mode 100644 static/post/2019-01-30-getting-in-to-a-postgraduate-programs-at-the-unam_files/unam.png
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
+$ [0m[K$ [0m[K$ [0mgit add .
