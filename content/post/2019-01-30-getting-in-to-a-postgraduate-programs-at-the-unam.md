@@ -57,9 +57,6 @@ You could even consider a specialization, something in between a licenciatura an
 
 Ask in the comments section below if you are looking for ideas about ways to study at this prestigious institution.
 
-
-
-
 # Why do a Master’s at the UNAM?
 In Mexico, the UNAM is known as la máxima casa de estudios, which is a bit like saying the “Harvard of Mexico”. But despite this slightly pretentious nickname, it is indeed one of the best universities in Mexico and the world [according to QS](https://www.topuniversities.com/universities/universidad-nacional-autonoma-de-mexico-unam). By studying here, you will certainly receive excellent training as well as invaluable cultural and linguistic knowledge. 
 
