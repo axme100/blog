@@ -1,5 +1,5 @@
 ---
-title: Getting in to a Postgraduate Programs at the UNAM
+title: Getting in to a Postgraduate Program at the UNAM
 author: Max Carey
 date: '2019-01-30'
 slug: getting-in-to-a-postgraduate-programs-at-the-unam
