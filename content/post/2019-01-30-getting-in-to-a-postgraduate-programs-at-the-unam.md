@@ -28,7 +28,7 @@ However, the guide will also be of use for anybody wishing to pursue postgraduat
 This guide was written based on my own personal (and subjective) experience applying to the UNAM. Although, I tried to be as objective as possible, please consult other sources.
 
 # What is the UNAM like?
-The UNAM actually has various campuses in Mexico City, other cities within Mexico, and the world (see information about the CEPE). The largest campus with the greatest offering of postgraduate programs is called Ciudad Universitaria (CU) which is in the south of Mexico City. This guide will focus on applying to programs at CU. Most of the postgraduate programs run by the UNAM-CU hold administrative offices in a building called Unidad de Posgrado which is in the southern part of the campus. See the location below:
+The UNAM actually has various campuses in Mexico City, other cities within Mexico, and the world (see information about the CEPE). The largest campus with the greatest offering of postgraduate programs is called Ciudad Universitaria (CU) which is in the south of Mexico City. This guide will focus on applying to programs at CU. Most of the postgraduate programs run by the UNAM-CU hold administrative offices in a building called *Unidad de Posgrado* which is in the southern part of the campus. See the location below:
 
 <center>
 
@@ -36,7 +36,7 @@ The UNAM actually has various campuses in Mexico City, other cities within Mexic
 
 </center>
 
-As far as I know, the application process should be similar for other programs that are located on other campuses. For example, there are various Facultades de Estudios Superiores (FES) that offer other postgraduate degrees, including:
+As far as I know, the application process should be similar for other programs that are located on other campuses. For example, there are various *Facultades de Estudios Superiores* (FES) that offer other postgraduate degrees, including:
 
 a) <a href="https://www.acatlan.unam.mx/" target="_blank">FES Acatlán</a>
 
@@ -51,9 +51,9 @@ e) <a href="https://www.zaragoza.unam.mx/" target="_blank">FES Zaragoza</a>
 FES Acatlán, for example, offers a postgraduate degree in Mexico-United States studies, a program not offered at CU.
 
 # Pursuing an entire degree?
-There are many different ways to get involved with the UNAM besides pursuing an entire postgraduate degree. For example, you can simply take classes as [a non-matriculated exchange student](http://www.posgrado.unam.mx/es/main-menu/extranjeros-en-la-unam). Or if you are looking to take Spanish classes, the [CEPE (Centro de enseñanza de lenguas extranjeras)](http://www.cepe.unam.mx/) offers Spanish as a foreign language classes at numerous centers both in Mexico and the United States. The UNAM also offers many [continuing education programs](http://educacioncontinua.cuaed.unam.mx/oferta.php) such as diplomados (certificate programs). Also, check out the UNAM’s large list of [MOOCS on Coursera](https://www.coursera.org/unam). A lot of programs can even be done online, so you don’t necessarily have to move to Mexico.
+There are many different ways to get involved with the UNAM besides pursuing an entire postgraduate degree. For example, you can simply take classes as [a non-matriculated exchange student](http://www.posgrado.unam.mx/es/main-menu/extranjeros-en-la-unam). Or if you are looking to take Spanish classes, the [CEPE (Centro de enseñanza de lenguas extranjeras)](http://www.cepe.unam.mx/) offers Spanish as a foreign language classes at numerous centers both in Mexico and the United States. The UNAM also offers many [continuing education programs](http://educacioncontinua.cuaed.unam.mx/oferta.php) such as *diplomados* (certificate programs). Also, check out the UNAM’s large list of [MOOCS on Coursera](https://www.coursera.org/unam). A lot of programs can even be done online, so you don’t necessarily have to move to Mexico.
 
-You could even consider a specialization, something in between a licenciatura and a maestría. I think most specializations last about a year and you can even get scholarships for some of them.
+You could even consider a specialization, something in between a *licenciatura* and a *maestría*. I think most specializations last about a year and you can even get scholarships for some of them.
 
 Ask in the comments section below if you are looking for ideas about ways to study at this prestigious institution.
 
@@ -90,20 +90,20 @@ For a stress free experience to apply to postgraduate degree programs in Mexico,
 
 ## Power Distance:
 
-> "This dimension deals with the fact that all individuals in societies are not equal – it expresses the attitude of the culture towards these inequalities amongst us. Power Distance is defined as the extent to which the less powerful members of institutions and organisations within a country expect and accept that power is distributed unequally. At a score of 81, Mexico is a hierarchical society. This means that people accept a hierarchical order in which everybody has a place and which needs no further justification. Hierarchy in an organization is seen as reflecting inherent inequalities, centralization is popular, subordinates expect to be told what to do and the ideal boss is a benevolent autocrat." (https://www.hofstede-insights.com/country-comparison/mexico,the-usa/)
+> "This dimension deals with the fact that all individuals in societies are not equal – it expresses the attitude of the culture towards these inequalities amongst us. Power Distance is defined as the extent to which the less powerful members of institutions and organizations within a country expect and accept that power is distributed unequally. At a score of 81, Mexico is a hierarchical society. This means that people accept a hierarchical order in which everybody has a place and which needs no further justification. Hierarchy in an organization is seen as reflecting inherent inequalities, centralization is popular, subordinates expect to be told what to do and the ideal boss is a benevolent autocrat." (https://www.hofstede-insights.com/country-comparison/mexico,the-usa/)
 
 ## Uncertainty Avoidance:
 
-> "The dimension Uncertainty Avoidance has to do with the way that a society deals with the fact that the future can never be known: should we try to control the future or just let it happen? This ambiguity brings with it anxiety and different cultures have learnt to deal with this anxiety in different ways. The extent to which the members of a culture feel threatened by ambiguous or unknown situations and have created beliefs and institutions that try to avoid these is reflected in the score on Uncertainty Avoidance. Mexico scores 82 on this dimension and thus has a very high preference for avoiding uncertainty. Countries exhibiting high Uncertainty Avoidance maintain rigid codes of belief and behaviour and are intolerant of unorthodox behaviour and ideas. In these cultures there is an emotional need for rules (even if the rules never seem to work) time is money, people have an inner urge to be busy and work hard, precision and punctuality are the norm, innovation may be resisted, security is an important element in individual motivation." (https://www.hofstede-insights.com/country-comparison/mexico,the-usa/) 
+> "The dimension Uncertainty Avoidance has to do with the way that a society deals with the fact that the future can never be known: should we try to control the future or just let it happen? This ambiguity brings with it anxiety and different cultures have learnt to deal with this anxiety in different ways. The extent to which the members of a culture feel threatened by ambiguous or unknown situations and have created beliefs and institutions that try to avoid these is reflected in the score on Uncertainty Avoidance. Mexico scores 82 on this dimension and thus has a very high preference for avoiding uncertainty. Countries exhibiting high Uncertainty Avoidance maintain rigid codes of belief and behavior and are intolerant of unorthodox behavior and ideas. In these cultures, there is an emotional need for rules (even if the rules never seem to work) time is money, people have an inner urge to be busy and work hard, precision and punctuality are the norm, innovation may be resisted, security is an important element in individual motivation." (https://www.hofstede-insights.com/country-comparison/mexico,the-usa/) 
 
 In my personal experience, these dimensions are reflected in numerous ways throughout the application process. For instance, imagine this hypothetical situation: it’s Monday morning and you make an inquiry to a professor by email about the program you are interested in. You may be redirected to a specific administrator whose role is to respond to inquiries from potential candidates, but then realize this person is on vacation until the following Monday and they only answers inquiries on Fridays before 2pm. This means you may have to wait 2 weeks for a response, and as easy as it would be for the professor to just give you the information, they may insist you go through the proper channels. 
 Bureaucracy tends to be more rigid than in the United States, so patience (but also persistence) are key. 
-Another way that the second dimension is reflected in the application process is through the use of Convocatoria (In English: call for applications). At the UNAM, each program publishes their own convocatoria that stipulates specific rules for the application process. Convocatorias are very important, legally binding documents, that should be strictly adhered to in order to ensure fairness in the application process. For example, in my experience, the list of accepted candidates was published all at once on the program’s website. This is not like the United States where for example, individual offers are made to candidates until all of the positions are filled.
+Another way that the second dimension is reflected in the application process is through the use of a *Convocatoria* (In English: call for applications). At the UNAM, each program publishes their own *convocatoria* that stipulates specific rules for the application process. *Convocatorias* are very important, legally binding documents, that should be strictly adhered to in order to ensure fairness in the application process. For example, in my experience, the list of accepted candidates was published all at once on the program’s website. This is not like the United States where for example, individual offers are made to candidates until all of the positions are filled.
 
 # Timeline and Overview of Application Requirements
-As mentioned in the last paragraph of the section above, your program's Convocatoria will establish the application requirements. Conovacorias are released at different times throughout the year depending on your program. I think it is typical for Convocatorias to be released at the beginning of the spring semester (early februrary). 
+As mentioned in the last paragraph of the section above, your program's *Convocatoria* will establish the application requirements. Conovacorias are released at different times throughout the year depending on your program. I think it is typical for *Convocatorias* to be released at the beginning of the spring semester (early Februrary). 
 
-Convocatorias may very well change from year-to-year. I recommend looking for Convocatorias from previous years to get an idea of the documents that will most likely be required for the year in which you plan to apply. [The Posgrados UNAM twitter page](https://twitter.com/cepunam?lang=en) releases links to the Convocatorias of the various programs.
+*Convocatorias* may very well change from year-to-year. I recommend looking for *Convocatorias* from previous years to get an idea of the documents that will most likely be required for the year in which you plan to apply. [The Posgrados UNAM twitter page](https://twitter.com/cepunam?lang=en) releases links to the *Convocatorias* of the various programs.
 
 You can find a list of all the open *convocatorias* on <a href="http://www.posgrado.unam.mx/es/convocatorias/vigentes" target=blank>this page</a>
 
@@ -142,7 +142,7 @@ Even if your Conovatoria has not yet been released, it will likely contain a cor
 5. Writing Sample (Program Specific) You will probably have to provide a writing sample in Spanish. If you don’t have one and this is a requirement, I recommend translating a writing sample you have from English into Spanish.
 
 # What the hell is an apostille stamp?
-Created as part of the 1961 Hauge Convention, an Apostille stamp (pronounced "uh-pos-till") allows certain documents to be recognized in foreign countries. Mexico and the United States both participate in the Hauge Convention so you will need to get an apostille stamps for the documents that are marked above. Apostille stamps (to the best of my knowledge) are given by the Secretary of State of your specific state (not Rex Tillerson, but your specific states’ Secretary of State). 
+Created as part of the 1961 Hauge Convention, an Apostille stamp (pronounced "uh-pos-till") allows certain documents to be recognized in foreign countries. Mexico and the United States both participate in the Hauge Convention so you will need to get an apostille stamps for the documents that are marked above. Apostille stamps (to the best of my knowledge) are given by the Secretary of State of your specific state (not Mike Pompeo, but your specific states’ Secretary of State). 
 
 ***Documents must be notarized before they are sent off for an apostille stamp in your specific state***. Notarization is just a way to make a document official at the state level, and your university registrar (in the case of the official copy of the diploma) or the administrator of your states’ Department of Health (in the case of the birth certificate) should be able notarize these documents for you when you order them. In the case of your academic transcripts, I’m pretty sure that if they arrived ‘sealed’ to your Secretary of State, they will not require notarization.
 
@@ -162,7 +162,7 @@ An apostille stamp is just a piece of official paper stapled on top of a specifi
 # Certified Translations
 You will definitely need to have the documents listed above translated by a Mexican translator once they have the apostille stamp. Note: You should get all of the individual apostille stamp pages translated as well, even though it seems repetitive, make sure you get them. 
 
-A certified Mexican Translator is known as a *perito* or *perito traductor*. In Mexican Spanish, *perito* roughly translates to a certified specialist, so in the case of a perito translator, this just means that they are certified by the Mexican Government. At the bottom of your translations, you will need a stamp like this:
+A certified Mexican Translator is known as a *perito* or *perito traductor*. In Mexican Spanish, *perito* roughly translates to a certified specialist, so in the case of a *perito* translator, this just means that they are certified by the Mexican Government. At the bottom of your translations, you will need a stamp like this:
 
 <center>
 ![](/post/2019-01-30-getting-in-to-a-postgraduate-programs-at-the-unam_files/translationCert.png)
@@ -173,28 +173,28 @@ The Mexican GPA system is on a 10-point scale; so you will need to convert your 
 
 [Here are the instructions for doing this at the UNAM](http://www.dgire.unam.mx/contenido_wp/equivalencia-de-promedio/)
 
-You must have your official academic transcript translated by a Mexican perito (including the back side of the transcript) before you begin this process. This process takes about a month so it’s best to get started as soon as possible. Please note that this process can be done from outside Mexico (via email and international wire transfers), but if you are in Mexico it will cost less.
+You must have your official academic transcript translated by a Mexican *perito* (including the back side of the transcript) before you begin this process. This process takes about a month so it’s best to get started as soon as possible. Please note that this process can be done from outside Mexico (via email and international wire transfers), but if you are in Mexico it will cost less.
 
-This process is carried out by the Dirección General de Incorporación y Revalidación de Estudios (DGIRE), which is part of the UNAM. For applying to other Universities, I’m not sure.
+This process is carried out by the *Dirección General de Incorporación y Revalidación de Estudios* (DGIRE), which is part of the UNAM. For applying to other Universities, I’m not sure.
 
 # Spanish Proficiency Certificate
-In my case, I was not able to submit the DELE C1 as proof of academic Spanish. Luckily I had an older exam from the CEPE-UNAM that was accepted. However, the CEPE has recently created a new exam called Examen de Español como Lengua Extranjera para el Ámbito Académico (EXELEAA). You will most likely need to take this exam and submit it. In my case, the exam was required as part of the application process, but I have heard that some programs might just require it before you are allowed to receive your diploma. Consult your convocatoria or previous convocatorias.
+In my case, I was not able to submit the DELE C1 as proof of academic Spanish. Luckily I had an older exam from the CEPE-UNAM that was accepted. However, the CEPE has recently created a new exam called *Examen de Español como Lengua Extranjera para el Ámbito Académico (EXELEAA)*. You will most likely need to take this exam and submit it. In my case, the exam was required as part of the application process, but I have heard that some programs might just require it before you are allowed to receive your diploma. Consult your *convocatoria* or previous *convocatorias*.
 
 Here is the link for the exam: http://www.cepe.unam.mx/exeleaa/index.php?tema=quees&idioma=esp
 
 I know that it is possible to take this exam at some of the CEPE centers in your country of origin and other countries, however, when I inquired about taking the exam in Seattle (where the CEPE has a small office but doesn’t give Spanish classes) they had never given the exam and so it was nearly impossible for me to take it in Seattle.
 
 # Visas Immigration Status
-If you do not hold a Mexican passport and your stay in Mexico will be longer than 6 months, you will need to apply for a student visa at your local consulate in the United States. However, you will need an official carta de aceptación (letter of acceptance) before you are granted your visa so don’t worry about this stage yet.
+If you do not hold a Mexican passport and your stay in Mexico will be longer than 6 months, you will need to apply for a student visa at your local consulate in the United States. However, you will need an official *carta de aceptación* (letter of acceptance) before you are granted your visa so don’t worry about this stage yet.
 
 # Psychometric Exam 
-Some programs may require an examen psicométrico. This exam may ask you questions from Have you ever committed a crime to which shape best matches the one previously shown to you. It supposedly tests your emotional and academic aptitude of candidates. From what I can tell, these exams are pretty common in Mexico when applying to other jobs.
+Some programs may require an *examen psicométrico*. This exam may ask you questions like: "Have you ever committed a crime?" or "Which shape best matches the one previously shown to you?". It supposedly tests your emotional and academic aptitude of candidates. From what I can tell, these exams are pretty common in Mexico when applying to other jobs.
 
 # Entrance Exams
 Consult your Conovatoria for information specific to this.
 
 # CV
-The major difference between CV’s in the US and Mexico is that CVs in Mexico usually require you to say whether or not you are married. I have provided a template (.docx) that you can use to fill out your CV in Spanish in Microsoft Word. It contains some advice about language use written in Microsoft word comments.
+The major difference between CV’s in the US and Mexico is that CVs in Mexico usually require you to say your age and whether or not you are married. In the near future, I will include a template that you can use to fill out your CV in Spanish in Microsoft Word. It will contain some advice about language use written in Microsoft word comments.
 
 # Scholarships
 Even as a foreigner, you are guaranteed a scholarship by CONACYT (as long as your program is recognized. It is around 8,000 - 12,000 pesos a month. Keep in mind that you do not begin the application for this scholarship until the beginning of your first semester so you will have to be prepared for this financially. And it may take a while to receive your first payment, hence the following meme:
@@ -206,9 +206,9 @@ However, once you do receive your first scholarship, I have heard that the payme
 If you have a US passport, you can also apply to the <a href="http://www.comexus.org.mx/graduate_degree_program.php" target=blank>Fulbright García-Robles Graduate Degree Program</a> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country. Also, the stipend is a bit higher.
 
 # Security
-I have noticed that many people who don't live in Mexico tend to exagerate how dangerous it is. Comments like “Aren’t you worried about getting kidnapped?” “What about the cartels?” show a lack of understanding about the situation on the ground. While security **is** a concern in Mexico, and in many respects, to a greater degree than in the US, Mexico is a perfectly safe place to study and live. Crime is worse in specific regions, states, or neighborhoods.
+I have noticed that many people who don't live in Mexico tend to exaggerate how dangerous it is. Comments like “Aren’t you worried about getting kidnapped?” “What about the cartels?” show a lack of understanding about the situation on the ground. While security **is** a concern in Mexico, and in many respects, to a greater degree than in the US, Mexico is a perfectly safe place to study and live. Crime is worse in specific regions, states, or neighborhoods.
 
-You can always check the <a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" target=blank>State Departments’ travel warning on Mexico </a> which expresses their opionions on which areas are safe (and which are not) on a state-by-state, and within city basis.
+You can always check the <a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" target=blank>State Departments’ travel warning on Mexico </a> which expresses their opionion's on which areas are safe (and which are not) on a state-by-state, and within city basis.
 
 Also for an awesome data visualization project that shows levels of crime by metro stations in Mexico City check out <a href="https://www.diegovalle.net/maps/metro/" target=blank>
 this project</a> I have gotten pickpocketed a couple times in Mexico, which can be easily avoided. <a href="https://www.youtube.com/watch?v=KvQxCq6-ZLg" target=blank>Here’s</a> a video that explains how pickpocket gangs work in the Mexico City subway.:
