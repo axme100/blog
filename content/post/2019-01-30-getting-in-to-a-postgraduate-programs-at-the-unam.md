@@ -127,15 +127,19 @@ Even if your Conovatoria has not yet been released, it will likely contain a cor
 
 #### An Overview of the core documents in your application Get Started Now!!
       
-1. An official copy of your undergraduate academic diploma (and M.A. diploma if you are applying for a PHD in Mexico) **(Obligatory)** This document must be notarized, receive the stamp of the Apostille, and be translated into Mexican Spanish by a certified Mexican translator (in that order).
+1. An official copy of your undergraduate academic diploma (and M.A. diploma if you are applying for a PHD in Mexico) **(Obligatory)**
+- This document must be notarized, receive the stamp of the Apostille, and be translated into Mexican Spanish by a certified Mexican translator (in that order).
 
-2. Official academic transcripts from your undergraduate (and M.A. if you are applying for a PHD in Mexico) **(Obligatory)** This document must be notarized, receive the stamp of the Apostille, be translated into Mexican Spanish by a certified Mexican translator, and converted into the Mexican GPA
+2. Official academic transcripts from your undergraduate (and M.A. if you are applying for a PHD in Mexico) **(Obligatory)**
+- This document must be notarized, receive the stamp of the Apostille, be translated into Mexican Spanish by a certified Mexican translator, and converted into the Mexican GPA
 
-3. Official Birth Certificate **(Obligatory)** This document must be notarized, receive the stamp of the Apostille, be translated into Mexican Spanish by a certified Mexican translator
+3. Official Birth Certificate **(Obligatory)** 
+- This document must be notarized, receive the stamp of the Apostille, be translated into Mexican Spanish by a certified Mexican translator
 
-4. Spanish Proficiency Exam (Most Likely Obligatory) You will probably have to submit a Spanish proficiency exam. It will most likely be the [Examen de Español como Lenuga Extranjera para el Ámbito Académico (EXELEAA)](http://www.cepe.unam.mx/exeleaa/). See more information about the Spanish proficiency exams in the section below.
+4. Spanish Proficiency Exam (Most Likely Obligatory)
+- You will probably have to submit a Spanish proficiency exam. It will most likely be the [Examen de Español como Lenuga Extranjera para el Ámbito Académico (EXELEAA)](http://www.cepe.unam.mx/exeleaa/). See more information about the Spanish proficiency exams in the section below.
 
-5. Writing Sample (Program Specific) You will probably have to provide a writing sample in Spanish. If you don’t have one and this is a requirement, I recommend translating a writing sample you have in English into Spanish.
+5. Writing Sample (Program Specific) You will probably have to provide a writing sample in Spanish. If you don’t have one and this is a requirement, I recommend translating a writing sample you have from English into Spanish.
 
 # What the hell is an apostille stamp?
 Created as part of the 1961 Hauge Convention, an Apostille stamp (pronounced "uh-pos-till") allows certain documents to be recognized in foreign countries. Mexico and the United States both participate in the Hauge Convention so you will need to get an apostille stamps for the documents that are marked above. Apostille stamps (to the best of my knowledge) are given by the Secretary of State of your specific state (not Rex Tillerson, but your specific states’ Secretary of State). 
