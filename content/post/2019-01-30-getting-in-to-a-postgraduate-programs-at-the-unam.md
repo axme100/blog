@@ -105,11 +105,7 @@ As mentioned in the last paragraph of the section above, your program's Convocat
 
 Convocatorias may very well change from year-to-year. I recommend looking for Convocatorias from previous years [Insert example] to get an idea of the documents that will most likely be required for the year in which you plan to apply. [The Posgrados UNAM twitter page](https://twitter.com/cepunam?lang=en) releases links to the Convocatorias of the various programs.
 
-See an example of this years’ Conovatoria for a Maestría en Estudios Latinoamericanos
-
-<center>
-![](/post/2019-01-30-getting-in-to-a-postgraduate-programs-at-the-unam_files/Picture1.png)
-</center>
+You can find a list of all the open *convocatorias* on <a href="http://www.posgrado.unam.mx/es/convocatorias/vigentes" target=blank>this page</a>
 
 
 
