@@ -103,7 +103,7 @@ Another way that the second dimension is reflected in the application process is
 # Timeline and Overview of Application Requirements
 As mentioned in the last paragraph of the section above, your program's Convocatoria will establish the application requirements. Conovacorias are released at different times throughout the year depending on your program. I think it is typical for Convocatorias to be released at the beginning of the spring semester (early februrary). 
 
-Convocatorias may very well change from year-to-year. I recommend looking for Convocatorias from previous years [Insert example] to get an idea of the documents that will most likely be required for the year in which you plan to apply. [The Posgrados UNAM twitter page](https://twitter.com/cepunam?lang=en) releases links to the Convocatorias of the various programs.
+Convocatorias may very well change from year-to-year. I recommend looking for Convocatorias from previous years to get an idea of the documents that will most likely be required for the year in which you plan to apply. [The Posgrados UNAM twitter page](https://twitter.com/cepunam?lang=en) releases links to the Convocatorias of the various programs.
 
 You can find a list of all the open *convocatorias* on <a href="http://www.posgrado.unam.mx/es/convocatorias/vigentes" target=blank>this page</a>
 
@@ -171,7 +171,7 @@ A certified Mexican Translator is known as a *perito* or *perito traductor*. In 
 # Certified GPA Conversion Documents 
 The Mexican GPA system is on a 10-point scale; so you will need to convert your GPA to the Mexican System. This is particularly important because you will probably not be considered for admission without it and sometimes programs require a minimum GPA.
 
-[Here are the instructions](http://www.dgire.unam.mx/contenido_wp/equivalencia-de-promedio/)
+[Here are the instructions for doing this at the UNAM](http://www.dgire.unam.mx/contenido_wp/equivalencia-de-promedio/)
 
 You must have your official academic transcript translated by a Mexican perito (including the back side of the transcript) before you begin this process. This process takes about a month so it’s best to get started as soon as possible. Please note that this process can be done from outside Mexico (via email and international wire transfers), but if you are in Mexico it will cost less.
 
@@ -182,7 +182,7 @@ In my case, I was not able to submit the DELE C1 as proof of academic Spanish. L
 
 Here is the link for the exam: http://www.cepe.unam.mx/exeleaa/index.php?tema=quees&idioma=esp
 
-I know that it is possible to take this exam at some of the CEPE centers in the United States and other countries, however, when I inquired about taking the exam in Seattle (where the CEPE has a small office but doesn’t give Spanish classes) they had never given the exam and so it was nearly impossible for me to take it in Seattle.
+I know that it is possible to take this exam at some of the CEPE centers in your country of origin and other countries, however, when I inquired about taking the exam in Seattle (where the CEPE has a small office but doesn’t give Spanish classes) they had never given the exam and so it was nearly impossible for me to take it in Seattle.
 
 # Visas Immigration Status
 If you do not hold a Mexican passport and your stay in Mexico will be longer than 6 months, you will need to apply for a student visa at your local consulate in the United States. However, you will need an official carta de aceptación (letter of acceptance) before you are granted your visa so don’t worry about this stage yet.
@@ -197,13 +197,13 @@ Consult your Conovatoria for information specific to this.
 The major difference between CV’s in the US and Mexico is that CVs in Mexico usually require you to say whether or not you are married. I have provided a template (.docx) that you can use to fill out your CV in Spanish in Microsoft Word. It contains some advice about language use written in Microsoft word comments.
 
 # Scholarships
-Even as a foreigner, you are guaranteed a scholarship by CONACYT (as long as your program is recognized. I think it is around 8,000 - 12,000 pesos a month. Keep in mind that you do not begin the application for this scholarship until the beginning of your first semester. And it may take a while to receive your first payment, hence the following meme:
+Even as a foreigner, you are guaranteed a scholarship by CONACYT (as long as your program is recognized. It is around 8,000 - 12,000 pesos a month. Keep in mind that you do not begin the application for this scholarship until the beginning of your first semester so you will have to be prepared for this financially. And it may take a while to receive your first payment, hence the following meme:
 
 
 
 However, once you do receive your first scholarship, I have heard that the payments come in consistently (month per month) I’m pretty sure you get paid in the summer as well. You must maintain a GPA of 8/10 in order to apply:
 
-If you have an American passport, you can also apply to the Fulbright García-Robles Graduate Degree Program. <Insert link> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country. Also, the stipend is a bit higher.
+If you have an American passport, you can also apply to the <a href="http://www.comexus.org.mx/graduate_degree_program.php" target=blank>Fulbright García-Robles Graduate Degree Program</a> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country. Also, the stipend is a bit higher.
 
 # Security
 I have noticed that many Americans perceive Mexico as much more dangerous than it actually is. I would often get comments from friends and family: “Aren’t you worried about getting kidnapped?” “What about the cartels?”. While violence and insecurity is a concern in Mexico, it’s not the case that everywhere you go is dangerous and to a large extent, violence is contained to specific regions and certain states (and even zones within cities). Your security also depends on your ‘street smarts’ (for example knowing how to prevent pickpocketing and knowing where not to go). MEXICO IS A PERFECTLY SAFE PLACE TO STUDY.
