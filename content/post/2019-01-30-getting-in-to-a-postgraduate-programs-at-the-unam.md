@@ -203,7 +203,7 @@ Even as a foreigner, you are guaranteed a scholarship by CONACYT (as long as you
 
 However, once you do receive your first scholarship, I have heard that the payments come in consistently (month per month) I’m pretty sure you get paid in the summer as well. You must maintain a GPA of 8/10 in order to apply:
 
-If you have a US passport, you can also apply to the <a href="http://www.comexus.org.mx/graduate_degree_program.php" target=blank>Fulbright García-Robles Graduate Degree Program</a> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country. Also, the stipend is a bit higher.
+If you have a US passport, you can also apply to the <a href="http://www.comexus.org.mx/graduate_degree_program.php" target=blank>Fulbright García-Robles Graduate Degree Program</a> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country.
 
 # Security
 I have noticed that many people who don't live in Mexico tend to exaggerate how dangerous it is. Comments like “Aren’t you worried about getting kidnapped?” “What about the cartels?” show a lack of understanding about the situation on the ground. While security **is** a concern in Mexico, and in many respects, to a greater degree than in the US, Mexico is a perfectly safe place to study and live. Crime is worse in specific regions, states, or neighborhoods.
