@@ -199,18 +199,16 @@ The major difference between CV’s in the US and Mexico is that CVs in Mexico u
 # Scholarships
 Even as a foreigner, you are guaranteed a scholarship by CONACYT (as long as your program is recognized. It is around 8,000 - 12,000 pesos a month. Keep in mind that you do not begin the application for this scholarship until the beginning of your first semester so you will have to be prepared for this financially. And it may take a while to receive your first payment, hence the following meme:
 
-
+![](/post/2019-01-30-getting-in-to-a-postgraduate-programs-at-the-unam_files/conacyt.png)
 
 However, once you do receive your first scholarship, I have heard that the payments come in consistently (month per month) I’m pretty sure you get paid in the summer as well. You must maintain a GPA of 8/10 in order to apply:
 
-If you have an American passport, you can also apply to the <a href="http://www.comexus.org.mx/graduate_degree_program.php" target=blank>Fulbright García-Robles Graduate Degree Program</a> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country. Also, the stipend is a bit higher.
+If you have a US passport, you can also apply to the <a href="http://www.comexus.org.mx/graduate_degree_program.php" target=blank>Fulbright García-Robles Graduate Degree Program</a> which provides in country support, including orientations, cultural outings, and a community of other American researchers in-country. Also, the stipend is a bit higher.
 
 # Security
-I have noticed that many Americans perceive Mexico as much more dangerous than it actually is. I would often get comments from friends and family: “Aren’t you worried about getting kidnapped?” “What about the cartels?”. While violence and insecurity is a concern in Mexico, it’s not the case that everywhere you go is dangerous and to a large extent, violence is contained to specific regions and certain states (and even zones within cities). Your security also depends on your ‘street smarts’ (for example knowing how to prevent pickpocketing and knowing where not to go). MEXICO IS A PERFECTLY SAFE PLACE TO STUDY.
+I have noticed that many people who don't live in Mexico tend to exagerate how dangerous it is. Comments like “Aren’t you worried about getting kidnapped?” “What about the cartels?” show a lack of understanding about the situation on the ground. While security **is** a concern in Mexico, and in many respects, to a greater degree than in the US, Mexico is a perfectly safe place to study and live. Crime is worse in specific regions, states, or neighborhoods.
 
-You can always check the State Departments’ travel warning <Insert link> which contains state-by-state information about which areas are safe and which aren’t.
+You can always check the <a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" target=blank>State Departments’ travel warning on Mexico </a> which expresses their opionions on which areas are safe (and which are not) on a state-by-state, and within city basis.
 
-Also for an awesome data visualization project that shows levels of crime by metro stations in Mexico City check out: https://www.diegovalle.net/maps/metro/
-
-Here’s a video that explains how pickpocket gangs work in Mexico City:
-https://www.youtube.com/watch?v=KvQxCq6-ZLg
+Also for an awesome data visualization project that shows levels of crime by metro stations in Mexico City check out <a href="https://www.diegovalle.net/maps/metro/" target=blank>
+this project</a> I have gotten pickpocketed a couple times in Mexico, which can be easily avoided. <a href="https://www.youtube.com/watch?v=KvQxCq6-ZLg" target=blank>Here’s</a> a video that explains how pickpocket gangs work in the Mexico City subway.:
