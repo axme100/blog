@@ -211,4 +211,4 @@ I have noticed that many people who don't live in Mexico tend to exaggerate how 
 You can always check the <a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html" target=blank>State Departments’ travel warning on Mexico </a> which expresses their opionion's on which areas are safe (and which are not) on a state-by-state, and within city basis.
 
 Also for an awesome data visualization project that shows levels of crime by metro stations in Mexico City check out <a href="https://www.diegovalle.net/maps/metro/" target=blank>
-this project</a> I have gotten pickpocketed a couple times in Mexico, which can be easily avoided. <a href="https://www.youtube.com/watch?v=KvQxCq6-ZLg" target=blank>Here’s</a> a video that explains how pickpocket gangs work in the Mexico City subway.:
+this project</a> I have gotten pickpocketed a couple times in Mexico, which can be easily avoided. <a href="https://www.youtube.com/watch?v=KvQxCq6-ZLg" target=blank>Here’s</a> a video that explains how pickpocket gangs work in the Mexico City subway.
