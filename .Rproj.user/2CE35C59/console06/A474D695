@@ -838,3 +838,12 @@ To https://github.com/axme100/blog.git
    6ef28ca..e3146f5  master -> master
 ]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m maxblog
 $ [0m[K$ [0mgit add .
+]0;~/Documents/proj/maxblog[?1034h[38;5;203mmaxcarey[38;05;38m[0;34m maxblog
+[K$ [0mgit add .
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Documents/proj/maxblog[38;5;203mmaxcarey[38;05;38m[0;34m maxblog
+$ [0m[K$ [0mcd ..
+]0;~/Documents/proj[38;5;203mmaxcarey[38;05;38m[0;34m proj
+$ [0mls[K[Kcd blog
+]0;~/Documents/proj/blog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m blog
+$ [0mgit ad[K[K[K[K[K[Kgit add .
