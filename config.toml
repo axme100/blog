@@ -6,7 +6,7 @@
 
 baseurl = "/"
 languageCode = "en-us"
-title = "Max Carey"
+title = "Max's Blog"
 theme = "blackburn"
 author = "Max Carey"
 copyright = "&copy; 2018. All rights reserved."
