@@ -9,6 +9,8 @@ description = "Welcome to my personal site"
 ![](/./about_files/schwa.png)
 </center>
 
+> The schwa is a vowel sound in English (and other languages) that is only found in unstressed syllables.
+
 You have made it to my **brand new** personal website and blog. I will be using this site to blog about my personal and professional interests, which include linguistics (applied linguistics, hispanic linguistics, sociolinguistics, language teaching, phonetics/phonology, lexicography *among others*), coding, data anaylsis, and outdoor education (just to name a few!).
 
 You can find my CV here.
