@@ -968,3 +968,19 @@ To https://github.com/axme100/blog
    ec5a20f..70db0fe  master -> master
 ]0;~/Documents/proj/blog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m blog
 $ [0mtid[K[K[Kgit add .
+]0;~/Documents/proj/blog[38;5;203mmaxcarey[38;05;38m (master *+)[0;34m blog
+$ [0mgit commit -m "Modify shortname"
+[master cee76fd] Modify shortname
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+]0;~/Documents/proj/blog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m blog
+$ [0mgit push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 732 bytes | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/axme100/blog
+   70db0fe..cee76fd  master -> master
+]0;~/Documents/proj/blog[38;5;203mmaxcarey[38;05;38m (master *)[0;34m blog
+$ [0mgit add .
