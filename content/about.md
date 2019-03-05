@@ -5,7 +5,9 @@ sidemenu = "true"
 description = "Welcome to my personal site"
 +++
 
+<center>
 ![](/./about_files/schwa.png)
+</center>
 
 You have made it to my **brand new** personal website and blog. I will be using this site to blog about my personal and professional interests, which include linguistics (applied linguistics, hispanic linguistics, sociolinguistics, language teaching, phonetics/phonology, lexicography *among others*), coding, data anaylsis, and outdoor education (just to name a few!).
 
