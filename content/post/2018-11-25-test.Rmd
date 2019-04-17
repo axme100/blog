@@ -1,25 +1,72 @@
 ---
-title: Totago Mapping Project
+title: Ten Things I Learned While Building my First (Real) Full-Stack Web App
 author: Max Carey
-date: '2019-01-30'
+date: '2019-04-08'
 slug: test
 categories: []
-tags: [data science, totago, mapbox]
+tags: [data viz, fullstack, totago, mapbox, mapbox GL JS, chart.js, flask, sqlalchemy, python, udacity]
 description: ''
 topics: []
 ---
 
-In this blog post, I'm going to show off my latest (and first ever) full-stack, data science programming project. I built a single-page, dynamic web application that allows you to visualise usage data of the [Totago](https://www.totago.co/) web application. [Totago](https://www.totago.co/) helps people acsess hiking trails via public transportation. The application I built allows you to click on zip code areas on a map (powered by Map Box GL JS framework) and dynamically visualize the outdoor destinations that were visited by people originating from those zip code areas. You can find the live version of the application here. The code used to build this applicaiton is available on GitHub.
+# Introduction
 
-# 1. What is Totago?
+In this post, I'm going to show off my first (real) full-stack, data viz web application that allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation. My application is an interactive, choropleth map where each map area is colored according to the number of users who generated Totago iteneraries from that area. When users click on thee map areas (postal codes or neighborhoods), information about the destinations originaing from the areas is displayed dynamically through resizing cirlces on the map as well as an adjacent bar graph.
 
-# 2. Where I learned the skills to program this site up
+> [Here is a gif showing the page in action]
 
-# 3. The technology behind the site
+> You can find the live version of the application <a href="https://intense-plateau-81342.herokuapp.com/map/" target=blank>here</a> (hosted on Heroku).
 
-# 4. Valuable skills I learned from this project.
+> Also, the code is located in <a href="https://github.com/turnofftheapp/mapProj" target=blank>this GitHub repository</a>
+
+The application, hosted on Heroku, uses Python and Flask for the backend code and connects to a Postgres database hosted on AWS RDS with SQL Alchemy. The front retrieves data via AJAX calls which is visualized by a in the map element (powered by Map Box GL JS) and a a bar graph (Mapbox GL JS). You can find all the source code in the link above. 
+
+# 1. It's very important to have a mentor during the development process
+Even though this project is a single-page application, it took me a **long** time, but it would have taken much longer without the support of Adrian Laurenzi Totago founder and CEO (<a href="http://adrianlaurenzi.com/my-cv/" target=blank>here is a link to his personal site</a>) . When I started this project (as a freelance gig), Adrian invited me to Totago's slack channel and we made a point of getting in touch at least once a week.
+
+One of the things I learned at Udacity, was the importance of planning out your code before jumping in. I found it particularly helpful to have
+
+# 2. Thinking through the entire development process from the get-go will save you a ton of time in the long run.
+- Talk about the process of deciding which technologies to use (Amazon RDS vs. Posgres, vs. MySQL lite, vs. Backend.)
+
+# 2. Udacity is a great starting point for learners
+1. My history with Udacity, link to my certificate.
+2. What I learned from Udacity.
+3. How this project was the next step as a full-stack developer (connecting the front end to the backend).
+
+# 3. Spending time pimping your coding environment saves time in the long run
 
 
 
 
+1. Sublime Text Bracket Plugin
+2. Terminal Shortcuts
+3. Please feel free to mention anything else you have in the comments
 
+# 4. Stack Overflow is God!
+1. Dont feel bad about copying and pasting code from Stack Overflow.
+- Give example of adapting geoJSON circles to my particular nned
+2. It feels great to be an active particpant in the community, using upvotes and staring (even though I didn't really ask questions)
+
+# 5. Use Your Browser's Debugger instead of inserting a bunch of print statements
+- Talk about how for the majority of the project, I just inserted a bunch of print statements.
+
+
+# 6. Postgres is better than SQL lite.
+Talk about the experience I had when I had to change this.
+
+
+# 7. Dev ops is an entire word
+- Talk about how I used, talk about the database setup that I used for my project, put that one stackoverflow post in.
+
+# 8. Use lots of functions
+Talk about the weekend I spent refactoring my code because I hadn't used a lot of functions. April 3-5
+
+# 9 MapBox and geoJSON are awesome!
+
+# 10. It's important to have Grit!
+- This should be the very 
+
+
+# 11. A Software project never ends.
+When I started learning how to code, a past mentor of mine, David, told me how the coding experiene really never ends.
