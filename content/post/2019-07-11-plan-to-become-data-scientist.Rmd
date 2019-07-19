@@ -57,6 +57,7 @@ https://www.edx.org/course/computational-probability-and-inference
 https://www.edx.org/course/linear-algebra-foundations-to-frontiers-2
 
 ## Step 2: Data strcutures and algorithms class
+Becoming a data scientist and or computational linguist requires knowledge of computer science theory, especially data structures and algorithms. Previously, I completed two intro-level CS classes at South Seattle Community College, which should prepare me to dive into the following classes:
 
 1. Algorithmic Design and Techniques
 https://www.edx.org/course/algorithmic-design-and-techniques
