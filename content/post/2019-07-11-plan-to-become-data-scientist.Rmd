@@ -1,0 +1,79 @@
+---
+title: "My Plan to Prepare for a Career in Data Science and Computational Linguistics"
+author: "Max Carey"
+date: '2019-07-11'
+description: ''
+slug: plan-to-become-data-scientist
+tags: []
+categories: []
+topics: []
+---
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+The purpose of this blog post is to plan for and document the steps that I am currently undertaking to prepare for a career in data science and/or computational linguistics. I have a background in academic linguistics: sociolinguistics, hispanic linguistics, applied linguistics (you can see my publications and CV here). I **love** these fields and enjoyed teaching English and Spanish (applied linguistics) for a number of years. However, jobs in academia are quite scarce these days, so my ultimate goal is to find a job in industry where I can combine my love for linguistics with technology.
+
+Fortunately, a lot of the skills I picked up in linguistics, like data anaylsis with R, are useful for a career data science and computational linguistics. This is my plan to retool for a career in programming in these fields.
+
+# Step 1: Refresh and upgrade math and statistics knowledge
+
+I have had some college-level training in algebra, precalculus, calculus, and statistics, however, I only took 1 class in each field, and the classes were designed for business majors which meant they lacked certain topics, like geometry. In other words, they were not sufficiently comprehensive to understand the math behind topics like machine learning and AI.
+
+
+## Step 1a) Comprehensive Algebra and Precalculus Review
+
+The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use an AI system, ALEKS, to detect what you already know and give you an individualized path to mastering the content. This is helping brush up on and fill the wholes of my foundational math knowledge.
+
+1. <a href="https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x" target=blank> College Algebra and Problem Solving</a>
+ <div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar"
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+    20%
+  </div>
+</div> 
+
+2. <a href="https://www.edx.org/course/precalculus-asux-mat170x" target=blank>Precalculus</a> 
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar"
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:1%">
+    0%
+  </div>
+</div>
+
+## Step 1b): Calculus Class, derivatives
+
+The next step is to take a calculus class. A refresher in calculus should definitely come before statistics since a lot of probability theory uses calculus.
+
+1. Calculus 1A: Differentiation https://www.edx.org/course/calculus-1a-differentiation-2
+
+## Step 1c): Probability and Statistics Classes
+
+1. Computational Probability and Inference
+https://www.edx.org/course/computational-probability-and-inference
+
+## Step 1d): Linear Algebra Classes
+
+1. Linear Algebra - Foundations to Frontiers
+https://www.edx.org/course/linear-algebra-foundations-to-frontiers-2
+
+## Step 2: Data strcutures and algorithms class
+
+1. Algorithmic Design and Techniques
+https://www.edx.org/course/algorithmic-design-and-techniques
+
+2. Data Structure Fundamentals
+https://www.edx.org/course/data-structures-fundamentals
+
+## Step 3: Bootcamp for funcional python coding ability and breaking into industry.
+
+
+## Step 4: Get Job in Mexico City
+
+## Step 5: Continue developing knowledge of machine learning and AI techniques
+
+## Step 6: Compling courses
+
+1. Certificate in Natural Langauge Technology
+https://www.pce.uw.edu/certificates/natural-language-technology
+2. Master of Science in Computational Linguistcs
+https://www.compling.uw.edu/

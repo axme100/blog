@@ -36,16 +36,22 @@ One of the things I learned at Udacity, was the importance of planning out your 
 
 # 3. Spending time pimping your coding environment saves time in the long run
 
-
-
-
-1. Sublime Text Bracket Plugin
+1. Sublime Text Bracket Plugin (show a gif of this in action)
 2. Terminal Shortcuts
 3. Please feel free to mention anything else you have in the comments
 
 # 4. Stack Overflow is God!
-1. Dont feel bad about copying and pasting code from Stack Overflow.
-- Give example of adapting geoJSON circles to my particular nned
+This project has taught me a lot about the value in being good at copying-and-pasting from Stack Overflow. Really though, I don't think of it as control-Cing and control-Ving your homework because it really does take some skill to know (a) how to phrase your question correctly on Google, (b) how to sift through the different posts and answers within stack overflow, and (c) how to make fine-tune or coarse adjustments to the code you find on the forums. For example, I knew I needed to find a way to create GeoJSON circles for each Totago destination in my project, to do this I googled something like
+
+>
+
+One of the answers is literally
+
+```{javascript}
+```
+
+
+
 2. It feels great to be an active particpant in the community, using upvotes and staring (even though I didn't really ask questions)
 
 # 5. Use Your Browser's Debugger instead of inserting a bunch of print statements
@@ -66,7 +72,6 @@ Talk about the weekend I spent refactoring my code because I hadn't used a lot o
 
 # 10. It's important to have Grit!
 - This should be the very 
-
 
 # 11. A Software project never ends.
 When I started learning how to code, a past mentor of mine, David, told me how the coding experiene really never ends.
