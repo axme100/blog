@@ -22,7 +22,7 @@ I have had some college-level training in algebra, precalculus, calculus, and st
 
 ## Step 1a) Comprehensive Algebra and Precalculus Review
 
-The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use an AI system, ALEKS, to detect what you already know and give you an individualized path to mastering the content. For people like me whose interest in math waxed and waned throughout high school and college, I mastered certain topics but always had holes in my knowledge. This is helping brush up on and fill the wholes of my foundational math knowledge.
+The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use an AI system, ALEKS, to detect what you already know and give you an individualized path to mastering the content. For people like me whose interest in math waxed and waned throughout high school and college, I mastered certain topics but always had holes in my knowledge. These classes will help me master the content once and for all, and be prepared
 
 1. <a href="https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x" target=blank> College Algebra and Problem Solving</a>
  <div class="progress">
@@ -47,7 +47,9 @@ The next step is to take a calculus class. In college, I took a business calculu
 > "[Calculus is] used in machine learning (&deep learning) to formulate the funcions used to train algorithms to rech their objective, known by loss/cost/objective functions"
 
 
-also, integrasl  It looks like most people pursuing a B.S. need to have 3 foundational courses in calculus before moving on to more advanced topics. I am really excited to see that MIT offeres these foundational classes on edX.
+I have also heard that integrals are key to understanding probability. Also, it looks like most people pursuing a B.S. need to have 3 foundational courses in calculus before moving on to more advanced topics. I am really excited to see that MIT offeres just this content on edX:
+
+Priority:
 
 1. <a href="https://www.edx.org/course/calculus-1a-differentiation-2" target=blank> Calculus 1A: Differentiation</a>
  <div class="progress">
@@ -97,13 +99,15 @@ https://www.edx.org/course/algorithmic-design-and-techniques
 https://www.edx.org/course/data-structures-fundamentals
 
 ## Step 3: Bootcamp for funcional python coding ability and breaking into industry.
+People have mixed feelings about bootcamps. I have heard a lot of people say how grads often lack either comprehensive theoretical knowledge (the point of taking all the previously mentioned prerequisites) or functional coding abilities.
 
 
 ## Step 4: Get Job in Mexico City
+People who work in technical careers have often advised me that getting your foot in the door is one of the most important steps.
 
 ## Step 5: Continue developing knowledge of machine learning and AI techniques
 
-## Step 6: Compling courses
+## Step 6: Computational linguistics courses
 
 1. Certificate in Natural Langauge Technology
 https://www.pce.uw.edu/certificates/natural-language-technology
