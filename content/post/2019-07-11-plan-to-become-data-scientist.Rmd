@@ -40,9 +40,14 @@ The first step in my plan is to brush up on algebra and precalculus, using EdX c
   </div>
 </div>
 
-## Step 1b): Calculus Class, derivatives
+## Step 1b): Calculus
 
-The next step is to take a calculus class. In college, I took a business calculus class, and loved it (and aced it). However, it was only a 10-week course that focused mostly on derivatives (we only studied integrals for 1 week). It looks like most people pursuing a B.S. need to have 3 foundational courses in calculus before moving on to more advanced topics. I am really excited to see that MIT offeres these foundational classes on edX.
+The next step is to take a calculus class. In college, I took a business calculus class, and loved it (I also aced it). However, it was only a 10-week course that focused mostly on derivatives (we only looked at integrals for 1 week). I can see that calculus is quite important for data science, according to <a href="https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306" target=blank>this blog:</a>
+
+> "[Calculus is] used in machine learning (&deep learning) to formulate the funcions used to train algorithms to rech their objective, known by loss/cost/objective functions"
+
+
+also, integrasl  It looks like most people pursuing a B.S. need to have 3 foundational courses in calculus before moving on to more advanced topics. I am really excited to see that MIT offeres these foundational classes on edX.
 
 1. <a href="https://www.edx.org/course/calculus-1a-differentiation-2" target=blank> Calculus 1A: Differentiation</a>
  <div class="progress">
@@ -69,6 +74,8 @@ The next step is to take a calculus class. In college, I took a business calculu
   </div>
 </div>
 
+
+4. Class in multivariat calculus, TBD
 
 ## Step 1c): Probability and Statistics Classes
 
