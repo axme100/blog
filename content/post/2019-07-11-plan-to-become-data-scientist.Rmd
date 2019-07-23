@@ -11,9 +11,9 @@ topics: []
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-The purpose of this blog post is to plan for and document the steps that I am currently undertaking to prepare for a career in data science and/or computational linguistics. I have a background in academic linguistics: sociolinguistics, hispanic linguistics, applied linguistics (you can see my publications and CV here). I **love** these fields and enjoyed teaching English and Spanish (applied linguistics) for a number of years. However, jobs in academia are quite scarce these days, so my ultimate goal is to find a job in industry where I can combine my love for linguistics with technology.
+The purpose of this blog post is to plan for and document the steps that I am currently undertaking to prepare for a career in data science and/or computational linguistics. I have a background in academic linguistics: sociolinguistics, hispanic linguistics, applied linguistics (you can see my publications and CV here). I **love** these fields and enjoyed teaching English and Spanish (applied linguistics) for a number of years. However, jobs in academia are quite scarce these days, so my ultimate goal is to find a job in industry where I can combine my love for language and linguistics with technology.
 
-Fortunately, a lot of the skills I picked up in linguistics, like data anaylsis with R, are useful for a career data science and computational linguistics. This is my plan to retool for a career in programming in these fields.
+Fortunately, a lot of the skills I picked up in linguistics, like data anaylsis with R, are useful for a career data science and computational linguistics. This is my roadmap to retool for a career in data science and/or computational linguistics.
 
 # Step 1: Refresh and upgrade math and statistics knowledge
 
@@ -22,7 +22,7 @@ I have had some college-level training in algebra, precalculus, calculus, and st
 
 ## Step 1a) Comprehensive Algebra and Precalculus Review
 
-The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use an AI system, ALEKS, to detect what you already know and give you an individualized path to mastering the content. This is helping brush up on and fill the wholes of my foundational math knowledge.
+The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use an AI system, ALEKS, to detect what you already know and give you an individualized path to mastering the content. For people like me whose interest in math waxed and waned throughout high school and college, I mastered certain topics but always had holes in my knowledge. This is helping brush up on and fill the wholes of my foundational math knowledge.
 
 1. <a href="https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x" target=blank> College Algebra and Problem Solving</a>
  <div class="progress">
