@@ -1,28 +1,31 @@
 ---
-title: "My Plan to Prepare for a Career in Data Science and Computational Linguistics"
+title: "My MOOC journey to prepare for a Career in Data Science and Computational Linguistics"
 author: "Max Carey"
 date: '2019-07-11'
 description: ''
 slug: plan-to-become-data-scientist
-tags: []
+tags: [MOOCs, Data Science, edX]
 categories: []
 topics: []
 ---
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
 The purpose of this blog post is to plan for and document the steps that I am currently undertaking to prepare for a career in data science and/or computational linguistics. I have a background in academic linguistics: sociolinguistics, hispanic linguistics, applied linguistics (you can see my publications and CV here). I **love** these fields and enjoyed teaching English and Spanish (applied linguistics) for a number of years. However, jobs in academia are quite scarce these days, so my ultimate goal is to find a job in industry where I can combine my love for language and linguistics with technology.
 
-Fortunately, a lot of the skills I picked up in linguistics, like data anaylsis with R, are useful for a career data science and computational linguistics. This is my roadmap to retool for a career in data science and/or computational linguistics.
+Fortunately, a lot of the skills I picked up in linguistics, like data anaylsis with R, are useful for a career data science and computational linguistics. This is my roadmap for a MOOC journey to retool for a career in data science and/or computational linguistics. I hope that by writing this blog I can stay motivated to complete my MOOCS, show off my skills to potential employers, and inspire others to follow a similar path.
 
 # Step 1: Refresh and upgrade math and statistics knowledge
 
-I have had some college-level training in algebra, precalculus, calculus, and statistics, however, I only took 1 class in each field, and the classes were designed for business majors which meant they lacked certain topics, like geometry. In other words, they were not sufficiently comprehensive to understand the math behind topics like machine learning and AI.
-
+I have had some college-level training in algebra, precalculus, calculus, and statistics, however, I only took 1 class in each field, and the classes were designed for business majors which meant they lacked certain topics, like trigonometric functions. In other words, they were not sufficiently comprehensive to understand the math behind topics like machine learning and AI.
 
 ## Step 1a) Comprehensive Algebra and Precalculus Review
 
-The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use an AI system, ALEKS, to detect what you already know and give you an individualized path to mastering the content. For people like me whose interest in math waxed and waned throughout high school and college, I mastered certain topics but always had holes in my knowledge. These classes will help me master the content once and for all, and be prepared
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
+The first step in my plan is to brush up on algebra and precalculus, using EdX classes. The great thing about these courses is that they use ALEKS, an online learning platform that uses an AI algorithm to predict what you already know and give you an individualized path to mastering the content. <a href="https://sway.office.com/tFxqIGwGLW6DmseU" target=blank> This blog </a> explains the pros and cons of Khan Academy vs. ALEKS, arguing that Khan academy is better because of the superior gamification and positive user reinforcement built into the platform. However, for people like me, adult learners, whose interest and committement in math waxed and waned throughout high school and college, I mastered certain topics but always had certain holes in my knowledge. I think the <a href="https://www.aleks.com/video/how_aleks_works" target=blank>AI behind ALEKS</a> will really help me focus on the things I don't already know and learn the content faster, Khan academy doesn't create an individualized path for each learner (at least not that I know). Anyway, ALEKS let's you click on a button to watch videos for certain topics when you get stuck, some of which are Khan Academy, and others are from Arizona State University, the institution behind the MOOCs:
 
 1. <a href="https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x" target=blank> College Algebra and Problem Solving</a>
  <div class="progress">
@@ -30,7 +33,9 @@ The first step in my plan is to brush up on algebra and precalculus, using EdX c
   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:33%">
     33%
   </div>
-</div> 
+</div>
+Arizona State University - MAT117
+
 
 2. <a href="https://www.edx.org/course/precalculus-asux-mat170x" target=blank>Precalculus</a> 
 <div class="progress">
@@ -39,10 +44,16 @@ The first step in my plan is to brush up on algebra and precalculus, using EdX c
     0%
   </div>
 </div>
+Arizona State University - MAT170
+
+Interesting take-a-ways:
+
+Some of my favorite problem sets.
+
 
 ## Step 1b): Calculus
 
-The next step is to take a calculus class. In college, I took a business calculus class, and loved it (I also aced it). However, it was only a 10-week course that focused mostly on derivatives (we only looked at integrals for 1 week). I can see that calculus is quite important for data science, according to <a href="https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306" target=blank>this blog:</a>
+The next step is to take calculus classes. In college, I took a business calculus class, and loved it. However, it was only a 10-week course that focused mostly on derivatives (we only looked at integrals for 1 week). I can see that calculus is quite important for data science, according to <a href="https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306" target=blank>this blog:</a>
 
 > "[Calculus is] used in machine learning (&deep learning) to formulate the funcions used to train algorithms to rech their objective, known by loss/cost/objective functions"
 
@@ -77,7 +88,7 @@ Priority:
 </div>
 
 
-4. Class in multivariat calculus, TBD
+4. Class in multivariate calculus, TBD
 
 ## Step 1c): Probability and Statistics Classes
 
@@ -113,3 +124,6 @@ People who work in technical careers have often advised me that getting your foo
 https://www.pce.uw.edu/certificates/natural-language-technology
 2. Master of Science in Computational Linguistcs
 https://www.compling.uw.edu/
+
+## Other resources:
+1. https://medium.com/better-programming/the-data-science-interview-study-guide-c3824cb76c2e
