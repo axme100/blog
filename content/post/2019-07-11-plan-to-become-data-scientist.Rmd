@@ -71,6 +71,8 @@ Priority:
   </div>
 </div>
 
+To Be Completed Later:
+
 2. <a href="https://www.edx.org/course/calculus-1b-integration-2" target=blank> Calculus 1B: Integration</a>
  <div class="progress">
   <div class="progress-bar progress-bar-striped active" role="progressbar"
@@ -92,9 +94,15 @@ Priority:
 4. Class in multivariate calculus, TBD
 
 ## Step 1c): Probability and Statistics Classes
+The first class looks a bit easier (it only requires lists derivatives as a prerequisite), the second class looks a bit more comprehensive as it requires derivatives, inegrals, infinite series, and multivariate calculus.
+
 
 1. Computational Probability and Inference
 https://www.edx.org/course/computational-probability-and-inference
+
+2. Probability - The Science of Uncertainty and Data
+https://www.edx.org/course/probability-the-science-of-uncertainty-and-data-2
+
 
 ## Step 1d): Linear Algebra Classes
 
