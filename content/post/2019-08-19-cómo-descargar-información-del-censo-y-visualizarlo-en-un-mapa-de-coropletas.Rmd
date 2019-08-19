@@ -1,0 +1,13 @@
+---
+title: ¿Cómo descargar información del CENSO y visualizarlo en un mapa de coropletas?
+author: Max Carey
+date: '2019-08-19'
+slug: cómo-descargar-información-del-censo-y-visualizarlo-en-un-mapa-de-coropletas
+categories: []
+tags: []
+description: ''
+topics: []
+---
+
+Para mi tesis de maestría hice algunos mapas de coropletas que tenían que ver con los chihuahuenses que vivían en la Ciudad de México entre otras cosas.
+
