@@ -4,21 +4,99 @@ author: Max Carey
 date: '2019-08-19'
 slug: cómo-descargar-información-del-censo-y-visualizarlo-en-un-mapa-de-coropletas
 categories: []
-tags: [INEGI, Censo, R, Mapas, Coropletas]
+tags: [INEGI, Censo, R, Mapas, Coropletas, mxmaps]
 description: ''
 topics: []
 ---
 
 Para mi tesis de maestría hice algunos mapas de coropletas que tenían que ver con los chihuahuenses que vivían en la Ciudad de México entre otras cosas. En este post voy a mostrar cómo lo hice, espero poder ayudarle a alguien que quiera hacer algo parecido.
 
-Hay dos tipos de mapas que se hacen: hexbins y coropletas. La INGEGI tiene una página interactiva (point-and-click) donde uno puede hacer búsquedas personalizadas de los datos obtenidos del Censo de Población y Vivienda 2010. Hasta donde yo sepa, la INEGI no tiene una API para acceder a estos datos, y el interfaz es un poco anticuado, así que se requiere un poquito de paciencia.
+Hay dos tipos de mapas que se hacen: hexbins y coropletas, primero voy a explicar el proceso para hacer un hexbin.
+
+# Descargar los datos:
+
+La INGEGI tiene una <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/censos/cpv2010/P12Mas.asp?s=est&c=27823&proy=cpv10_p12mas" target=blank>página</a> interactiva (point-and-click) donde uno puede hacer búsquedas personalizadas de los datos obtenidos del Censo de Población y Vivienda 2010. Hasta donde yo sepa, la INEGI no tiene una API para acceder a estos datos, y el interfaz es un poco anticuado, así que se requiere un poquito de paciencia.
 
 
+# Paso 1: Cargar los paquetes *tidyverse* y *mxmaps*
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library("mxmaps")
+```
 
 
+# Importar los datos
+```{r}
+datosCDMX <- read.csv("df.csv")
+datosEDOMEX <- read.csv("edomex.csv")
+```
+
+```{r}
+# Set the column names
+colnames(datosEDOMEX) <- c("estado", "totalEdoMx", "sinEscoEdoMx", "eduBasicaEdoMx", "eduMedSupEdoMx", "eduSupEdoMx", "noEspEdoMx")
+colnames(datosCDMX) <- c("estado", "totalCdMx", "sinEscoCdMx", "eduBasicaCdMx", "eduMedSupCdMx", "eduSupCdMx", "noEspCdMx")
+
+# Combine the two datasets
+datos <- left_join(datosCDMX, datosEDOMEX, by="estado")
+remove(datosCDMX, datosEDOMEX)
+
+# Get the different fileds to turn into integers while removing the comas from the dataset
+datos <- datos %>%
+  mutate(eduBasicaCdMx=as.integer(gsub(",", "", eduBasicaCdMx)),
+         eduMedSupCdMx=as.integer(gsub(",", "", eduMedSupCdMx)),
+         eduSupCdMx=as.integer(gsub(",", "", eduSupCdMx)),
+         # Add the new fields
+         totalCdMx=as.integer(gsub(",", "", totalCdMx)),
+         sinEscoCdMx=as.integer(gsub(",", "", sinEscoCdMx)),
+         noEspCdMx=as.integer(gsub(",", "", noEspCdMx)),
+         eduBasicaEdoMx=as.integer(gsub(",", "", eduBasicaEdoMx)),
+         eduMedSupEdoMx=as.integer(gsub(",", "", eduMedSupEdoMx)),
+         eduSupEdoMx=as.integer(gsub(",", "", eduSupEdoMx)),
+         # Add the new fields
+         totalEdoMx=as.integer(gsub(",", "", totalEdoMx)),
+         sinEscoEdoMx=as.integer(gsub(",", "", sinEscoEdoMx)),
+         noEspEdoMx=as.integer(gsub(",", "", noEspEdoMx)))
+
+# Remove the row with MEXICO from the analysis
+datos <- datos %>%
+  filter(estado!="México")
 
 
+# Get totals for each education level
+datos <- datos %>%
+  mutate(educacionBasicaTotal = eduBasicaCdMx + eduBasicaEdoMx,
+         educacionMediaSuperiorTotal = eduMedSupCdMx + eduMedSupEdoMx,
+         educacionSuperiorTotal = eduSupCdMx + eduSupEdoMx)
 
+# Get grand totals
+datos <- datos %>%
+  mutate(poblacionTotal = totalCdMx + totalEdoMx)
+
+# Get proportion
+datos <- datos %>%
+  mutate(proporMedSuperior_Superior = round(((educacionMediaSuperiorTotal + educacionSuperiorTotal) / poblacionTotal )*100, digits=2)) %>%
+  arrange(desc(proporMedSuperior_Superior))
+
+
+# Get the data from the mxmap package
+df_mxstate <- df_mxstate
+# Get offical names and state codes
+stateCodes <- df_mxstate %>%
+  select(region, state_name_official) %>%
+  rename(estado= state_name_official)
+
+# Add the region to the data that I have calculated
+datos <- left_join(datos, stateCodes, by="estado")
+
+# Create the graph
+# The data frame must contain value which in the case,
+# I will just set equal to the proportion that I had above
+datos$value = datos$proporMedSuperior_Superior
+
+mxhexbin_choropleth(datos, num_colors = 1,
+                    title = "",
+                    legend = "%")
+```
 
 
 
