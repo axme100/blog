@@ -136,3 +136,4 @@ https://www.compling.uw.edu/
 
 ## Other resources:
 1. https://medium.com/better-programming/the-data-science-interview-study-guide-c3824cb76c2e
+2. https://realpython.com/data-science-podcasts/
