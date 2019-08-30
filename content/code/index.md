@@ -2,11 +2,11 @@
 title = "Code"
 date = "2018-01-07"
 sidemenu = "true"
-description = "Snippets, Ideas, and Comments"
+description = "Snippets, Ideas, Notes, and Comments"
 +++
 
 # Overview
-The purpose of this page is to collect scripts and snippets of code that were used in context so that they can be easily adapted or incorporated into future projects. Writing things down is also a great learning experience!
+The purpose of this page is to collect scripts, snippets of code, notes, and ideas. Getting things written down help me to stay more organized, and hopefully something here can be adopted by others!
 
 # R Scripts
 1. [Wrangle Concordances and Apply Custom Function]( {{< ref "codeOne">}})
