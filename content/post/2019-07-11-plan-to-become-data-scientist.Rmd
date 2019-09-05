@@ -96,7 +96,7 @@ To Be Completed Later:
 4. Class in multivariate calculus, TBD
 
 ## Step 1c): Probability and Statistics Classes
-The first class looks a bit easier (it only requires lists derivatives as a prerequisite), the second class looks a bit more comprehensive as it requires derivatives, inegrals, infinite series, and multivariate calculus.
+The first class looks a bit easier and since it only requires derivatives and basic python programming, I plan to take it as soon as I finish my first calculus class mentioned above (the priority). The second class looks a bit more comprehensive as it requires derivatives, inegrals, infinite series, and multivariate calculus, I plan to take this class later, after finishing the single variable caclulus series and finding a multivariate calculus class.
 
 
 1. Computational Probability and Inference
@@ -107,6 +107,7 @@ https://www.edx.org/course/probability-the-science-of-uncertainty-and-data-2
 
 
 ## Step 1d): Linear Algebra Classes
+This class looks really cool and it's built by a guy who has been developing linear algebra educational software!
 
 1. Linear Algebra - Foundations to Frontiers
 https://www.edx.org/course/linear-algebra-foundations-to-frontiers-2
