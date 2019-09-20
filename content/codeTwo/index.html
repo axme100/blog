@@ -1,23 +1,25 @@
 ---
-title: "Compiling MA Thesis in Latex with R Markdown in Spanish"
+title: "Using Weave to Render UNAM Thesis in Latex with R Studio"
 author: mc
 date: '2018-11-25'
 slug: test
 categories: []
 tags: []
-description: 'Notes for compiling thesis in latex through R markdown in Spanish using APA'
-topics: []
+description: 'How to typeset your UNAM thesis in LATEX through Weave in R Studio'
+topics: [tesis, unam, spanish, biblatex, knitr, rstudio]
 type: 'post'
 ---
 
 
 
+<pre class="r"><code>knitr::knit2pdf(&#39;testsweave.Rnw&#39;, bib_engine = &quot;biber&quot;)</code></pre>
 <p>General Resources:
 <a href="https://bookdown.org/yihui/rmarkdown/pdf-document.html" class="uri">https://bookdown.org/yihui/rmarkdown/pdf-document.html</a>
 It looks like this page talks about overall document structure</p>
 <div id="compiler" class="section level2">
 <h2>1. Compiler</h2>
-<p><strong>pdflatex</strong> (maybe xelatex)</p>
+<p>asdf
+<strong>pdflatex</strong> (maybe xelatex)</p>
 <ul>
 <li>It looks like the default for overleaf and for R studio is pdfLaTex but XeLaTex can also be used for both. Xelatex may be better for certain unicode fonts, but I’ll probably want to stick with the default, and just change the language to Spanish.
 <a href="https://bookdown.org/yihui/rmarkdown/pdf-document.html" class="uri">https://bookdown.org/yihui/rmarkdown/pdf-document.html</a></li>

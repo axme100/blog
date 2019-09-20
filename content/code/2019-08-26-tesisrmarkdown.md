@@ -11,9 +11,9 @@ topics: []
 
 Actually it's looking like the best way to go is use weave:
 
-We want to use biber in order to have the apa style of biblatex: So I have to compile the document with the following command.
+We want to use biber in order to have the apa style of biblatex: So I have to compile the document with the following command:
 
-https://kevinstadler.github.io/blog/knitr-rmarkdown-flavours/
+
 
 knitr::knit2pdf('testsweave.Rnw', bib_engine = "biber")
 
