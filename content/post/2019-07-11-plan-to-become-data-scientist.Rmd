@@ -52,6 +52,9 @@ Some of my favorite problem sets.
 
 1. Factoring a quadratic with a leading coeficient greater than one using the grouping method
 
+This problem does this:
+https://www.youtube.com/watch?v=Wi0W_SbPTZs
+
 2. Transforming functions seems counterintuitive, especially shrinking and strething.
 
 ## Step 1b): Calculus

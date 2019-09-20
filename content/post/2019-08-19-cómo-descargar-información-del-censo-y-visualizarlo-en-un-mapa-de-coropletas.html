@@ -11,11 +11,16 @@ topics: []
 
 
 
+<div id="try-to-get-this-faq-dropdown-to-work" class="section level1">
+<h1>Try to get this faq dropdown to work:</h1>
+<p><a href="https://codepen.io/Brolik/pen/EgWjzy" class="uri">https://codepen.io/Brolik/pen/EgWjzy</a></p>
 <p>Para mi tesis de maestría hice algunos mapas de coropletas que tenían que ver con los chihuahuenses que vivían en la Ciudad de México entre otras cosas. En este post voy a mostrar cómo lo hice, espero poder ayudarle a alguien que quiera hacer algo parecido.</p>
-<p>Hay dos tipos de mapas que se hacen: hexbins y coropletas, primero voy a explicar el proceso para hacer un hexbin.</p>
+<p>Hay dos tipos de mapas que se hacen: hexbins y coropletas, primero voy a explicar el proceso para crear el mapa hexbin.</p>
+</div>
 <div id="descargar-los-datos" class="section level1">
 <h1>Descargar los datos:</h1>
-<p>La INGEGI tiene una <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/censos/cpv2010/P12Mas.asp?s=est&c=27823&proy=cpv10_p12mas" target=blank>página</a> interactiva (point-and-click) donde uno puede hacer búsquedas personalizadas de los datos obtenidos del Censo de Población y Vivienda 2010. Hasta donde yo sepa, la INEGI no tiene una API para acceder a estos datos, y el interfaz es un poco anticuado, así que se requiere un poquito de paciencia.</p>
+<p>La INGEGI tiene una <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/censos/cpv2010/P12Mas.asp?s=est&c=27823&proy=cpv10_p12mas" target=blank>página</a> interactiva (point-and-click) donde uno puede hacer búsquedas personalizadas de los datos obtenidos del Censo de Población y Vivienda 2010. Hasta donde yo sepa, la INEGI no tiene una API para acceder a estos datos, y el interfaz es un poco anticuado, así que se requiere que el usaurio haga varias busquedas para después combinar diferentes datos.</p>
+<p>Si quieres leer sobre el proceso de</p>
 </div>
 <div id="paso-1-cargar-los-paquetes-tidyverse-y-mxmaps" class="section level1">
 <h1>Paso 1: Cargar los paquetes <em>tidyverse</em> y <em>mxmaps</em></h1>
@@ -95,4 +100,10 @@ mxhexbin_choropleth(datos, num_colors = 1,
 <pre><code>## Warning in self$bind(): The following regions were missing and are being
 ## set to NA: 09, 15</code></pre>
 <p><img src="/post/2019-08-19-c%C3%B3mo-descargar-informaci%C3%B3n-del-censo-y-visualizarlo-en-un-mapa-de-coropletas_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<script>
+$('.faq li .question').click(function () {
+  $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+  $(this).parent().toggleClass('active');
+});
+</script>
 </div>

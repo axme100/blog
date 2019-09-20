@@ -9,13 +9,19 @@ description: ''
 topics: []
 ---
 
+
+# Try to get this faq dropdown to work:
+https://codepen.io/Brolik/pen/EgWjzy
+
 Para mi tesis de maestría hice algunos mapas de coropletas que tenían que ver con los chihuahuenses que vivían en la Ciudad de México entre otras cosas. En este post voy a mostrar cómo lo hice, espero poder ayudarle a alguien que quiera hacer algo parecido.
 
-Hay dos tipos de mapas que se hacen: hexbins y coropletas, primero voy a explicar el proceso para hacer un hexbin.
+Hay dos tipos de mapas que se hacen: hexbins y coropletas, primero voy a explicar el proceso para crear el mapa hexbin.
 
 # Descargar los datos:
 
-La INGEGI tiene una <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/censos/cpv2010/P12Mas.asp?s=est&c=27823&proy=cpv10_p12mas" target=blank>página</a> interactiva (point-and-click) donde uno puede hacer búsquedas personalizadas de los datos obtenidos del Censo de Población y Vivienda 2010. Hasta donde yo sepa, la INEGI no tiene una API para acceder a estos datos, y el interfaz es un poco anticuado, así que se requiere un poquito de paciencia.
+La INGEGI tiene una <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/censos/cpv2010/P12Mas.asp?s=est&c=27823&proy=cpv10_p12mas" target=blank>página</a> interactiva (point-and-click) donde uno puede hacer búsquedas personalizadas de los datos obtenidos del Censo de Población y Vivienda 2010. Hasta donde yo sepa, la INEGI no tiene una API para acceder a estos datos, y el interfaz es un poco anticuado, así que se requiere que el usaurio haga varias busquedas para después combinar diferentes datos.
+
+Si quieres leer sobre el proceso de
 
 
 # Paso 1: Cargar los paquetes *tidyverse* y *mxmaps*
@@ -98,6 +104,9 @@ mxhexbin_choropleth(datos, num_colors = 1,
                     legend = "%")
 ```
 
-
-
-
+<script>
+$('.faq li .question').click(function () {
+  $(this).find('.plus-minus-toggle').toggleClass('collapsed');
+  $(this).parent().toggleClass('active');
+});
+</script>
