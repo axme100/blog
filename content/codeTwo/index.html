@@ -12,6 +12,9 @@ type: 'post'
 
 
 
+<p>At first my plan was to use R Markdown files and knitr to generate a PDF of my thesis. However, after researching different latex packages for bibliography management, I learned that the most actively developed and customizable programs was biblatex (not natbib) and biber (not bibtex). These programs seemed to work better for the kind of APA-based, Mexican Spanish bibliography that I needed.<a href="https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib/25702">This Stack Overflow post</a> explains these programs as well as their pros and cons.</p>
+<p>More specifically, I found it difficult to configure the YAML header to meet these needs, it seemed like using raw latex preamble would be easier, plus most of the information on Stack Overflow about how to create APA bibliographies in Mexican Spanish didn’t assumed peoplep were using YAML headers in R studio. But if I abandoned R markdown I couldn’t have a reproducible document (or it would be much harder)!. Then I discovered weave! It looks like it looks like it is a way to intersperse R code with raw latex, in the end it avoids YAML headers and Pandoc giving you much more custom control of latex. <a href="https://kevinstadler.github.io/blog/knitr-rmarkdown-flavours/"> This page </a> explains the difference between .Rnw (weave) files and .Rmd (R markdown files).</p>
+<p>When rendering a weave document in R studio, it appears I have to explcitily tell R studio that I want it to use biber, so I had to render the documents in the R console with the following command:</p>
 <pre class="r"><code>knitr::knit2pdf(&#39;testsweave.Rnw&#39;, bib_engine = &quot;biber&quot;)</code></pre>
 <p>General Resources:
 <a href="https://bookdown.org/yihui/rmarkdown/pdf-document.html" class="uri">https://bookdown.org/yihui/rmarkdown/pdf-document.html</a>
