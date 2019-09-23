@@ -10,6 +10,9 @@ topics: [tesis, unam, spanish, biblatex, knitr, rstudio]
 type: 'post'
 ---
 
+# Background
+
+I want to create a reproducible document in R and Latex, Using APA, and Mexican Spanish for UNAM thesis.
 
 At first my plan was to use R Markdown files and knitr to generate a PDF of my thesis. However, after researching different latex packages for bibliography management, I learned that the most actively developed and customizable programs was biblatex (not natbib) and biber (not bibtex). These programs seemed to work better for the kind of APA-based, Mexican Spanish bibliography that I needed.<a href="https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib/25702">This Stack Overflow post</a> explains these programs as well as their pros and cons.
 
