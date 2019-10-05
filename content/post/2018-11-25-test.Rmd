@@ -11,11 +11,11 @@ topics: []
 
 # Introduction
 
-In this post, I'm going to show off my first (real) full-stack, data viz web application that allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation. My application is an interactive, choropleth map where each map area is colored according to the number of users who generated Totago iteneraries from that area. When users click on thee map areas (postal codes or neighborhoods), information about the destinations originaing from the areas is displayed dynamically through resizing cirlces on the map as well as an adjacent bar graph.
+In this post, I'm going to show off my first full-stack, data viz web application that allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation. My application is an interactive, choropleth map where each map area is colored according to the number of users who generated Totago iteneraries from that area. When users click on thee map areas (postal codes or neighborhoods), information about the destinations originaing from the areas is displayed dynamically through resizing cirlces on the map as well as an adjacent bar graph.
 
 > [Here is a gif showing the page in action]
 
-> You can find the live version of the application <a href="https://intense-plateau-81342.herokuapp.com/map/" target=blank>here</a> (hosted on Heroku).
+> You can find the live version of the application <a href="https://nameless-sierra-49126.herokuapp.com/map/" target=blank>here</a> (hosted on Heroku).
 
 > Also, the code is located in <a href="https://github.com/turnofftheapp/mapProj" target=blank>this GitHub repository</a>
 
