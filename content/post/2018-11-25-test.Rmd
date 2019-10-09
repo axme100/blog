@@ -1,5 +1,5 @@
 ---
-title: Ten Things I Learned While Building my First (Real) Full-Stack Web App
+title: Making an interactive choropleth map in Map Box GL JS
 author: Max Carey
 date: '2019-04-08'
 slug: test
@@ -9,25 +9,21 @@ description: ''
 topics: []
 ---
 
-# Introduction
+In this post, I'm going to descibe a full-stack, data viz web application I built from scratch which allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation.
 
-In this post, I'm going to show off my first full-stack, data viz web application that allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation. My application is an interactive, choropleth map where each map area is colored according to the number of users who generated Totago iteneraries from that area. When users click on thee map areas (postal codes or neighborhoods), information about the destinations originaing from the areas is displayed dynamically through resizing cirlces on the map as well as an adjacent bar graph.
+The app is an interactive choropleth map in which each map area is colored according to the number of users who have generated Totago iteneraries (from that map area). When users click on a map area (postal codes or barrio/neighborhoods), a bar graph is generated showing the how many users went to each destination; the destinations are also represented by red circles whose radiai are automatically resized according to the same counts.
 
-> [Here is a gif showing the page in action]
+> You can find the live version of the application <a href="https://nameless-sierra-49126.herokuapp.com/map/" target=blank>here</a>
 
-> You can find the live version of the application <a href="https://nameless-sierra-49126.herokuapp.com/map/" target=blank>here</a> (hosted on Heroku).
+The application, hosted on Heroku, uses Python and Flask for the backend server code and connects to a remote Postgres database using SQL Alchemy. The front end retrieves data via AJAX calls and uses said data to render the map features (powered by Map Box GL JS) and a a bar graph (chart.js). You can find all the source code in the link above.
 
-> Also, the code is located in <a href="https://github.com/turnofftheapp/mapProj" target=blank>this GitHub repository</a>
+> The code is located at: <a href="https://github.com/turnofftheapp/mapProj" target=blank>this GitHub repository</a>
 
-The application, hosted on Heroku, uses Python and Flask for the backend code and connects to a Postgres database hosted on AWS RDS with SQL Alchemy. The front retrieves data via AJAX calls which is visualized by a in the map element (powered by Map Box GL JS) and a a bar graph (Mapbox GL JS). You can find all the source code in the link above. 
+In this blog post, I want to share some reflections, lessons learned, and best-practices.
 
-# 1. It's very important to have a mentor during the development process
-Even though this project is a single-page application, it took me a **long** time, but it would have taken much longer without the support of Adrian Laurenzi Totago founder and CEO (<a href="http://adrianlaurenzi.com/my-cv/" target=blank>here is a link to his personal site</a>) . When I started this project (as a freelance gig), Adrian invited me to Totago's slack channel and we made a point of getting in touch at least once a week.
+# 1. Mentorship and planning ahead
 
-One of the things I learned at Udacity, was the importance of planning out your code before jumping in. I found it particularly helpful to have
-
-# 2. Thinking through the entire development process from the get-go will save you a ton of time in the long run.
-- Talk about the process of deciding which technologies to use (Amazon RDS vs. Posgres, vs. MySQL lite, vs. Backend.)
+I was fortunate to have technical mentorship throughout the development process. One of the things I learned during my certificate program in web-dev was the importance of planning and not diving right in to the coding. Before implementing a particular solution, I found it useful to go over my plan with Totago from a high-level perspective. In general, I learned that thinking through the entire development process from the get-go will save you a ton of time in the long run. For example, in the beggining, I had't thought all the way through to deploymnet, and since the application was going to be hosted on Heroku, I had to switch from an SQLite database to Postgres database when the applicaiton was already quite mature; this required some surgery.
 
 # 2. Udacity is a great starting point for learners
 1. My history with Udacity, link to my certificate.
@@ -35,7 +31,6 @@ One of the things I learned at Udacity, was the importance of planning out your 
 3. How this project was the next step as a full-stack developer (connecting the front end to the backend).
 
 # 3. Spending time pimping your coding environment saves time in the long run
-
 1. Sublime Text Bracket Plugin (show a gif of this in action)
 2. Terminal Shortcuts
 3. Please feel free to mention anything else you have in the comments
@@ -43,24 +38,14 @@ One of the things I learned at Udacity, was the importance of planning out your 
 # 4. Stack Overflow is God!
 This project has taught me a lot about the value in being good at copying-and-pasting from Stack Overflow. Really though, I don't think of it as control-Cing and control-Ving your homework because it really does take some skill to know (a) how to phrase your question correctly on Google, (b) how to sift through the different posts and answers within stack overflow, and (c) how to make fine-tune or coarse adjustments to the code you find on the forums. For example, I knew I needed to find a way to create GeoJSON circles for each Totago destination in my project, to do this I googled something like
 
->
-
-One of the answers is literally
-
-```{javascript}
-```
-
-
 
 2. It feels great to be an active particpant in the community, using upvotes and staring (even though I didn't really ask questions)
 
 # 5. Use Your Browser's Debugger instead of inserting a bunch of print statements
 - Talk about how for the majority of the project, I just inserted a bunch of print statements.
 
-
 # 6. Postgres is better than SQL lite.
 Talk about the experience I had when I had to change this.
-
 
 # 7. Dev ops is an entire word
 - Talk about how I used, talk about the database setup that I used for my project, put that one stackoverflow post in.

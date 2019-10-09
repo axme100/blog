@@ -1,5 +1,5 @@
 ---
-title: Ten Things I Learned While Building my First (Real) Full-Stack Web App
+title: Making an interactive choropleth map in Map Box GL JS
 author: Max Carey
 date: '2019-04-08'
 slug: test
@@ -11,30 +11,19 @@ topics: []
 
 
 
-<div id="introduction" class="section level1">
-<h1>Introduction</h1>
-<p>In this post, I’m going to show off my first full-stack, data viz web application that allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation. My application is an interactive, choropleth map where each map area is colored according to the number of users who generated Totago iteneraries from that area. When users click on thee map areas (postal codes or neighborhoods), information about the destinations originaing from the areas is displayed dynamically through resizing cirlces on the map as well as an adjacent bar graph.</p>
+<p>In this post, I’m going to descibe a full-stack, data viz web application I built from scratch which allows you to visualize usage data of the <a href="https://www.totago.com" target=blank>Totago</a>, an online program for helping people to access hiking trails via public transportation.</p>
+<p>The app is an interactive choropleth map in which each map area is colored according to the number of users who have generated Totago iteneraries (from that map area). When users click on a map area (postal codes or barrio/neighborhoods), a bar graph is generated showing the how many users went to each destination; the destinations are also represented by red circles whose radiai are automatically resized according to the same counts.</p>
 <blockquote>
-<p>[Here is a gif showing the page in action]</p>
+<p>You can find the live version of the application <a href="https://nameless-sierra-49126.herokuapp.com/map/" target=blank>here</a></p>
 </blockquote>
+<p>The application, hosted on Heroku, uses Python and Flask for the backend server code and connects to a remote Postgres database using SQL Alchemy. The front end retrieves data via AJAX calls and uses said data to render the map features (powered by Map Box GL JS) and a a bar graph (chart.js). You can find all the source code in the link above.</p>
 <blockquote>
-<p>You can find the live version of the application <a href="https://nameless-sierra-49126.herokuapp.com/map/" target=blank>here</a> (hosted on Heroku).</p>
+<p>The code is located at: <a href="https://github.com/turnofftheapp/mapProj" target=blank>this GitHub repository</a></p>
 </blockquote>
-<blockquote>
-<p>Also, the code is located in <a href="https://github.com/turnofftheapp/mapProj" target=blank>this GitHub repository</a></p>
-</blockquote>
-<p>The application, hosted on Heroku, uses Python and Flask for the backend code and connects to a Postgres database hosted on AWS RDS with SQL Alchemy. The front retrieves data via AJAX calls which is visualized by a in the map element (powered by Map Box GL JS) and a a bar graph (Mapbox GL JS). You can find all the source code in the link above.</p>
-</div>
-<div id="its-very-important-to-have-a-mentor-during-the-development-process" class="section level1">
-<h1>1. It’s very important to have a mentor during the development process</h1>
-<p>Even though this project is a single-page application, it took me a <strong>long</strong> time, but it would have taken much longer without the support of Adrian Laurenzi Totago founder and CEO (<a href="http://adrianlaurenzi.com/my-cv/" target=blank>here is a link to his personal site</a>) . When I started this project (as a freelance gig), Adrian invited me to Totago’s slack channel and we made a point of getting in touch at least once a week.</p>
-<p>One of the things I learned at Udacity, was the importance of planning out your code before jumping in. I found it particularly helpful to have</p>
-</div>
-<div id="thinking-through-the-entire-development-process-from-the-get-go-will-save-you-a-ton-of-time-in-the-long-run." class="section level1">
-<h1>2. Thinking through the entire development process from the get-go will save you a ton of time in the long run.</h1>
-<ul>
-<li>Talk about the process of deciding which technologies to use (Amazon RDS vs. Posgres, vs. MySQL lite, vs. Backend.)</li>
-</ul>
+<p>In this blog post, I want to share some reflections, lessons learned, and best-practices.</p>
+<div id="mentorship-and-planning-ahead" class="section level1">
+<h1>1. Mentorship and planning ahead</h1>
+<p>I was fortunate to have technical mentorship throughout the development process. One of the things I learned during my certificate program in web-dev was the importance of planning and not diving right in to the coding. Before implementing a particular solution, I found it useful to go over my plan with Totago from a high-level perspective. In general, I learned that thinking through the entire development process from the get-go will save you a ton of time in the long run. For example, in the beggining, I had’t thought all the way through to deploymnet, and since the application was going to be hosted on Heroku, I had to switch from an SQLite database to Postgres database when the applicaiton was already quite mature; this required some surgery.</p>
 </div>
 <div id="udacity-is-a-great-starting-point-for-learners" class="section level1">
 <h1>2. Udacity is a great starting point for learners</h1>
@@ -55,11 +44,6 @@ topics: []
 <div id="stack-overflow-is-god" class="section level1">
 <h1>4. Stack Overflow is God!</h1>
 <p>This project has taught me a lot about the value in being good at copying-and-pasting from Stack Overflow. Really though, I don’t think of it as control-Cing and control-Ving your homework because it really does take some skill to know (a) how to phrase your question correctly on Google, (b) how to sift through the different posts and answers within stack overflow, and (c) how to make fine-tune or coarse adjustments to the code you find on the forums. For example, I knew I needed to find a way to create GeoJSON circles for each Totago destination in my project, to do this I googled something like</p>
-<blockquote>
-
-</blockquote>
-<p>One of the answers is literally</p>
-<pre class="javascript"><code></code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>It feels great to be an active particpant in the community, using upvotes and staring (even though I didn’t really ask questions)</li>
 </ol>
