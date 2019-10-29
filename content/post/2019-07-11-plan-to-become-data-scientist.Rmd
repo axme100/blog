@@ -40,8 +40,8 @@ Arizona State University - MAT117
 2. <a href="https://www.edx.org/course/precalculus-asux-mat170x" target=blank>Precalculus</a> 
 <div class="progress">
   <div class="progress-bar progress-bar-striped active progress-bar-animated active" role="progressbar"
-  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:56%">
-    56%
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:67%">
+    67%
   </div>
 </div>
 Arizona State University - MAT170
