@@ -88,12 +88,21 @@ Arizona State University - MAT170
   <p>Lorem ipsum...</p>
 </div>
 
-<button class="accordion">3. Trigonometry, especially the unit circle, I always had trouble understanding this issue</button>
+<button class="accordion">3. Don't spend time memorizing facts about trigonometry</button>
 <div class="panel">
   <p>In taking these classes, the hardest topic for me was trigonometry, especially things related to the unit circle. I remember in high school we were told to memorize the unit circle, in fact the precalculus course essentially memorizes that you memorize the coordinates on the unit circle as well. Memorzing things are the antithesis to conceptual understanding, I came across this video which gives a strategy for deriving the unit circle coordinates from 45-45-90 and 30-60-90 triangles. It took me a couple of hours to get this technique down, but I'm glad I invested the time, because now I am able to derive the unit circle from scratch, leading to a more intuitive understanding of trig functions. </p>
-</div> 
+<br>
+Trigonometric identies also seem to have a lot of things one needs to memorize. I found this great website which gives some advice on memorizing the pythogarean identies: https://www.mathbootcamps.com/the-pythagorean-identities-you-only-need-to-memorize-one/
+<br>
+This is a good video that explains trig vidoeos
+https://www.youtube.com/watch?v=cS53LLKJdZo
 
- 
+</div>
+
+
+https://www.youtube.com/watch?v=KFlFr7PJ4OA
+
+https://www.youtube.com/watch?v=srj8b-RlXeg
 
 
 https://www.youtube.com/watch?v=Wi0W_SbPTZs
