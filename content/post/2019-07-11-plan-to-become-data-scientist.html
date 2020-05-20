@@ -100,7 +100,10 @@ There are many different ways to factor polynomials, (a) the sum-product method,
 </blockquote>
 <p>I have also heard that integrals are key to understanding probability, the area under a curve represents the probability of something. Also, it looks like most people pursuing a B.S. need to have 3 foundational courses in calculus before moving on to more advanced topics. I am really excited to see that MIT offeres just this content on edX:</p>
 <ol style="list-style-type: decimal">
-<li>4-Part Calculus Class (Coursera) (University of Pennslyvania)</li>
+<li><p>4-Part Calculus Class (Coursera) (University of Pennslyvania)</p></li>
+<li><p>This guy has great high school level lectures for intro to calculus.
+<a href="https://www.youtube.com/watch?v=fXYhyyJpFe8" class="uri">https://www.youtube.com/watch?v=fXYhyyJpFe8</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=Un0RcTMPJ64" class="uri">https://www.youtube.com/watch?v=Un0RcTMPJ64</a></p></li>
 </ol>
 </div>
 <div id="probability" class="section level2">
@@ -140,7 +143,19 @@ This first way I thought about this probability was, 13 possible demoniations of
 <li><p><a href="http://www.ilectureonline.com/lectures/subject/MATH/18/162" class="uri">http://www.ilectureonline.com/lectures/subject/MATH/18/162</a>
 This guy has a lot of free lectures on different math classes which he gives at an excellent pace for my level of understanding. The probability lectures seem great, so far I’ve only watched the videos on sets and set theory.</p></li>
 <li><p>Stat 110 Lectures on Youtube. These lectures complement the edX class but are not a required part of this class. <a href="https://projects.iq.harvard.edu/stat110/youtube" class="uri">https://projects.iq.harvard.edu/stat110/youtube</a></p></li>
+<li><p>The law of total probability: <a href="https://www.youtube.com/watch?v=F3y8qupFfUs" class="uri">https://www.youtube.com/watch?v=F3y8qupFfUs</a></p></li>
+<li><p>Good practice problem on PMFs that is pretty abstract but seems to help with some of the basic ideas: <a href="https://www.youtube.com/watch?v=Qx2NKaUCUw0" class="uri">https://www.youtube.com/watch?v=Qx2NKaUCUw0</a></p></li>
+<li><p>Good video and channel on binomial distributions: <a href="https://www.youtube.com/watch?v=e04_wUoscBU" class="uri">https://www.youtube.com/watch?v=e04_wUoscBU</a>. Didn’t catch the part at the end after 10 minutes on cumulative distributions, but we can come to this later.</p></li>
+<li><p>An awesome probability cheat sheet based on the same book that my probability edX probability class uses: <a href="https://www.wzchen.com/probability-cheatsheet/" class="uri">https://www.wzchen.com/probability-cheatsheet/</a></p></li>
+<li><p>Excellent video on indicator variables well explained with set theory: <a href="https://www.youtube.com/watch?v=DaGcgPxfDoA" class="uri">https://www.youtube.com/watch?v=DaGcgPxfDoA</a></p></li>
 </ol>
+<ul>
+<li>Shoul dcome back and look at the other vieos this guy has.</li>
+</ul>
+<p>My story is first choose 2 spaids out of the 13 spaids, then choose the remaining 3 cards from all the hands that do not have sapids (52-13spaids). Divide that by all the possible hands.</p>
+<pre class="r"><code>(choose(13,2)*choose(39,3))/choose(52,5)</code></pre>
+<pre><code>## [1] 0.2742797</code></pre>
+<p>Use the same logic to calculate a one of a kind or a two of a kind or a three of a kind.</p>
 </p>
 </div>
 <button class="accordion">
