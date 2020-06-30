@@ -1,11 +1,11 @@
 ---
-title: My MOOC Journey to prepare for a Career in Data Science and NLP
-author: Max Carey
+title: "My MOOC Journey to prepare for a Career in Data Science and NLP"
+author: "Max Carey"
 date: '2019-07-11'
 tags:
-  - Data Science
-  - edX
-  - MOOCs
+- Data Science
+- edX
+- MOOCs
 slug: plan-to-become-data-scientist
 ---
 
@@ -48,7 +48,7 @@ The purpose of this blog post is to plan for and document the steps that I am cu
 I thought I would nerd out on a roadmap of my current MOOC journey to retool for a career these fields. My plan is to use this blog to keep track of my progress, stay motivated, take notes, and hopefully, inspire others to follow a similar path. Of course, I will also be codecrastinating around with html-css-javascript (just for fun)! If you have any comments, thoughts, suggestions, please use Disques at the bottom of the page.
 
 <br>
-
+ hello testing
 ## Algebra and Trigonometry (Precalculus)
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
