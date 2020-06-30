@@ -5,7 +5,9 @@ sidemenu = "true"
 description = "Welcome to My Personal Site"
 +++
 
-This is my new blog. I'll be using this site to write about my personal and professional interests, which include linguistics (applied linguistics, hispanic linguistics, sociolinguistics, language teaching, phonetics/phonology, lexicography *among others*), web dev, data anaylsis, and outdoor education (just to name a few!).
+This is my new blog. I'll be using this site to write about my personal and professional interests, which include linguistics (applied linguistics, Spanish linguistics, sociolinguistics, language teaching, phonetics/phonology, lexicography *among others*), web dev, data anaylsis, and outdoor education (just to name a few!).
+
+You can find a one page resume (English): [here](https://axme100.github.io/resume/resume.html)
 
 
 ---
